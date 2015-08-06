@@ -1,0 +1,9 @@
+2015-08-06 16:02:32,999 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Ch9_Fitler_Order:Ch9_Fitler_Order:0.0.1-SNAPSHOT @ D:\SPRING LEARNING\Ch9_Fitler_Order\pom.xml.
+2015-08-06 16:02:35,765 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-06 16:02:35,796 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING LEARNING\Ch9_Fitler_Order\src\main\resources
+2015-08-06 16:02:35,811 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-06 16:02:35,811 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING LEARNING\Ch9_Fitler_Order\src\test\resources
+2015-08-06 16:02:37,358 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-06 16:02:37,390 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING LEARNING\Ch9_Fitler_Order\src\main\resources
+2015-08-06 16:02:37,390 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-06 16:02:37,405 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING LEARNING\Ch9_Fitler_Order\src\test\resources
