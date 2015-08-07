@@ -6,6 +6,6 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/webapp" tag="defaultRootSource"/>
         <property name="java-output-path" value="/Ch9_Fitler_Order/build/classes"/>
-        <property name="context-root" value="Ch9_Fitler_Order"/>
+        <property name="context-root" value="Ch9_Fitler_ASYNC"/>
     </wb-module>
 </project-modules>
