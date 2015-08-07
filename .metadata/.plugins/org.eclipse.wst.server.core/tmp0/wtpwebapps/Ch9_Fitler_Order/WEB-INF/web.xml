@@ -31,6 +31,7 @@
 		<filter-name>servletFilter</filter-name>
 		<servlet-name>myServlet</servlet-name>
 	</filter-mapping>
+	
 	<filter>
 		<filter-name>myFilter</filter-name>
 		<filter-class>com.penhchet.shopping.filter.MyFilter</filter-class>

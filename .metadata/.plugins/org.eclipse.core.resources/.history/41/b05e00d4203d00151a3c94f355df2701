@@ -1,0 +1,15 @@
+package com.penhchet.shopping.servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet(
+			name = "asyncServlet",
+			urlPatterns ="/async",
+			asyncSupported = true
+		)
+public class AsyncServlet extends HttpServlet{
+	
+	private static volatile int ID = 1;
+
+}

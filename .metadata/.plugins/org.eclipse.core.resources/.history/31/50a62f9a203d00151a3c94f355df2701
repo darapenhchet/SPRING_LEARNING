@@ -1,0 +1,5 @@
+package com.penhchet.shopping.servlet;
+
+public class AsyncServlet extends HttpServlet{
+
+}
