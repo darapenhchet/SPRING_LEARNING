@@ -9,7 +9,9 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
+import com.penhchet.shopping.filter.CompressionFilter;
 import com.penhchet.shopping.filter.MyFilter;
+import com.penhchet.shopping.filter.RequestLogFIlter;
 
 //ADD LISTENER ANNOTATION
 //@WebListener
@@ -31,10 +33,17 @@ public class Configurator implements ServletContextListener{
 		// 1. GET SERVLET CONTEXT
 		ServletContext context = event.getServletContext();
 		// 2. REGISTER FILTER TO SERVLET CONTEXT		
-		FilterRegistration.Dynamic registration = context.addFilter("myFilter", new MyFilter());
+		FilterRegistration.Dynamic registration = context.addFilter("requestLogFilter", new RequestLogFIlter());
 		// 3. ADD MAPPING TO URLs OR SERVLET NAMEs
 		// 	  3.1. ADD MAPPING TO URLs 
-		registration.addMappingForUrlPatterns(EnumSet.of(DispatcherType.REQUEST, DispatcherType.ASYNC), false, "/*");
+		registration.addMappingForUrlPatterns(null, false, "/*");
+		
+		registration = context.addFilter("compressionFilter", new CompressionFilter());
+		
+		registration.setAsyncSupported(true);
+		
+		registration.addMappingForUrlPatterns(null, false, "/*");
+		
 		//    3.2. ADD MAPPING TO SERVLET NAMEs
 		// registration.addMappingForServletNames(EnumSet.of(DispatcherType.REQUEST, DispatcherType.ASYNC), false, "servletName");
 		
