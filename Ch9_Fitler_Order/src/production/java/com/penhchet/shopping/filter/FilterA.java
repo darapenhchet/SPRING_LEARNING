@@ -1,8 +1,6 @@
 package com.penhchet.shopping.filter;
 
 import java.io.IOException;
-
-import javax.servlet.DispatcherType;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
@@ -10,26 +8,17 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
+
 /**
- * Servlet Filter implementation class MyFilter
+ * Servlet Filter implementation class FilterA
  */
-/* BEGIN FILTER USING ANNOTATION */
-/*
-@WebFilter(
-	filterName = "myFilter",
-	urlPatterns = "/*",
-	dispatcherTypes = { DispatcherType.REQUEST, DispatcherType.ASYNC }
-)
-*/
-/* END FILTER USING ANNOTATION */
-public class MyFilter implements Filter {
+public class FilterA implements Filter {
 
     /**
      * Default constructor. 
      */
-    public MyFilter() {
+    public FilterA() {
         // TODO Auto-generated constructor stub
-    	System.out.println("CONSTRUCTOR MY FILTER...");
     }
 
 	/**
@@ -47,8 +36,9 @@ public class MyFilter implements Filter {
 		// place your code here
 
 		// pass the request along the filter chain
-		System.out.println("My Filter...");
-		chain.doFilter(request, response);
+		 System.out.println("Entering FilterA.doFilter()");        
+		 chain.doFilter(request, response);        
+		 System.out.println("Leaving FilterA.doFilter()"); 
 	}
 
 	/**
@@ -56,7 +46,6 @@ public class MyFilter implements Filter {
 	 */
 	public void init(FilterConfig fConfig) throws ServletException {
 		// TODO Auto-generated method stub
-		System.out.println("INIT MY FILTER...");
 	}
 
 }
