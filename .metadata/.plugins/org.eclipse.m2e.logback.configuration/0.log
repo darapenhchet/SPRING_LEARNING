@@ -2164,3 +2164,41 @@
 2015-08-07 16:42:03,887 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
 2015-08-07 16:42:03,888 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-08-07 16:42:03,892 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:12:45,461 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:45,607 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:12:45,609 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:45,614 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:12:48,661 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:48,769 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:12:48,771 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:48,778 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:12:50,927 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:51,008 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:12:51,047 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:51,052 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:12:55,988 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:56,070 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:12:56,072 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:12:56,077 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:14:20,904 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:14:21,004 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:14:21,005 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:14:21,011 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:14:29,089 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:14:29,092 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:14:29,093 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:14:29,109 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:14:37,493 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:14:37,498 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:14:37,499 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:14:37,503 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-07 17:16:00,229 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-07 17:16:04,732 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Ch9_Fitler_ASYNC:Ch9_Fitler_ASYNC:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\pom.xml.
+2015-08-07 17:16:07,845 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Ch9_Fitler_ASYNC/src/production/java
+2015-08-07 17:16:07,845 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Ch9_Fitler_ASYNC/src/testing/java
+2015-08-07 17:16:08,292 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Ch9_Fitler_ASYNC
+2015-08-07 17:16:08,296 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2015-08-07 17:16:08,981 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:16:09,163 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-07 17:16:09,166 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-07 17:16:09,170 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
