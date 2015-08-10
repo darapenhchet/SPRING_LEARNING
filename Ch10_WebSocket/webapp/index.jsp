@@ -9,12 +9,19 @@
 <meta name="author" content="PENHCHET" />
 <meta name="copyright" content="&copy;2015" />
 <title>WEBSOCKET HOME</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
 	<h1>WEBSOCKET HOME</h1>
 	<h1>Collaborative Whiteboard App</h1>
 
 	<div id="output"></div>
+
+	<div id="users"></div>
+
+	<input type="button" id="btnSend" value="SEND MESSAGE TO ALL CLIENTS."
+		value="NEW MESSAGE" />
 
 	<script type="text/javascript">
 		var wsURI = "ws://" + document.location.host
@@ -48,7 +55,7 @@
 			if (connection.readyState != WebSocket.OPEN) {
 				return;
 			}
-			if (connection.bufferedAmount == 0){
+			if (connection.bufferedAmount == 0) {
 				connection.send("HELLO WORLD");
 			}
 		}
@@ -61,8 +68,13 @@
 		}
 
 		function onMessage(event) {
+			document.getElementById("users").innerHTML += event.data;
 			console.log(event.data);
 		}
+
+		$("#btnSend").click(function(){
+			connection.send("NEW MESSAGE");
+		});
 	</script>
 </body>
 </html>

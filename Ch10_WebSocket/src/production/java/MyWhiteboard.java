@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
@@ -14,10 +15,8 @@ public class MyWhiteboard {
 	
 	@OnMessage
 	public String onMessage(String message){
-		String messages = "I AM WEB SOCKET";
-		System.out.println(message);
-		System.out.println(messages);
-		return messages;
+		sendMessageToAll(message);
+		return null;
 	}
 	
 	@OnOpen
@@ -30,4 +29,13 @@ public class MyWhiteboard {
 		peers.remove(peer);
 	}
 	
+	private void sendMessageToAll(String message){
+        for(Session s : peers){
+            try {
+                s.getBasicRemote().sendText(message);
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
 }
