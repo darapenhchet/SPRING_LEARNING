@@ -1,0 +1,5 @@
+package com.penhchet.shopping.filter;
+
+public class AuthenticationFilter {
+
+}

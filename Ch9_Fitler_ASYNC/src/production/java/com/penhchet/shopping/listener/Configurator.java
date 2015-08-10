@@ -42,7 +42,7 @@ public class Configurator implements ServletContextListener{
 		
 		registration.setAsyncSupported(true);
 		
-		registration.addMappingForUrlPatterns(null, false, "/*");
+		registration.addMappingForUrlPatterns(null, false, "/compression/*");
 		
 		//    3.2. ADD MAPPING TO SERVLET NAMEs
 		// registration.addMappingForServletNames(EnumSet.of(DispatcherType.REQUEST, DispatcherType.ASYNC), false, "servletName");
