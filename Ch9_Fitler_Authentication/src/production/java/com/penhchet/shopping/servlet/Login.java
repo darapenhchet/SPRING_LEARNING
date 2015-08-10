@@ -36,6 +36,8 @@ public class Login extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		System.out.println("HELLO LOGIN PAGE...");
+		request.getRequestDispatcher("/WEB-INF/jsp/view/login.jsp")
+			   .forward(request, response);
 	}
 
 }
