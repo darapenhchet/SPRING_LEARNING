@@ -1,0 +1,10 @@
+import javax.websocket.Decoder;
+import javax.websocket.Encoder;
+
+
+public class ChatMessageCodec implements
+					Encoder.BinaryStream<ChatMessage>,
+					Decoder.BinaryStream<ChatMessage>{
+	
+
+}

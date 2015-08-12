@@ -1,0 +1,8 @@
+import java.time.OffsetDateTime;
+
+
+public class ChatMessage {
+	
+	private OffsetDateTime timestamp;
+	private Type type;
+}

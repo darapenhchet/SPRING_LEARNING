@@ -1,0 +1,34 @@
+import java.io.IOException;
+import java.io.OutputStream;
+
+import javax.websocket.Decoder;
+import javax.websocket.EncodeException;
+import javax.websocket.Encoder;
+
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+
+public class ChatMessageCodec implements
+					Encoder.BinaryStream<ChatMessage>,
+					Decoder.BinaryStream<ChatMessage>{
+	
+	private static final ObjectMapper MAPPER = new ObjectMapper();
+	static{
+		MAPPER.findAndRegisterModules();
+		MAPPER.configure(JsonGenerator.Feature.AUTO_CLOSE_TARGET, false);
+	}
+	
+	@Override
+	public void encode(ChatMessage chatMessage, OutputStream outputStream)
+			throws EncodeException, IOException {
+		try{
+			
+		}catch(JsonGenerationException | JsonMappingException e){
+			
+		}
+	}
+	
+}

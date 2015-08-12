@@ -1,9 +1,0 @@
-import javax.websocket.server.ServerEndpoint;
-
-@ServerEndpoint("/whiteboardendpoint")
-public class MyWhiteboard {
-	
-	public String onMessage(String message){
-		return null;
-	}
-}

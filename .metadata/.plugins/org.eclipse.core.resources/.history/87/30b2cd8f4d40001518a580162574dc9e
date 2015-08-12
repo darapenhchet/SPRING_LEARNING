@@ -1,0 +1,12 @@
+import javax.websocket.server.ServerEndpoint;
+
+@ServerEndpoint(
+		value = "chat/{sessionId}",
+		encoders = ChatMessageCodec.class,
+		decoders = ChatMessageCodec.class,
+		configurator = ChatEndPoint.EndpointConfigurator.class
+		)
+
+public class ChatEndPoint {
+
+}

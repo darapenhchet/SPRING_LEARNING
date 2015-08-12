@@ -1,6 +1,0 @@
-import javax.websocket.server.ServerEndpoint;
-
-@ServerEndpoint("/whiteboardendpoint")
-public class MyWhiteboard {
-
-}

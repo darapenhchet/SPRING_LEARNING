@@ -1,0 +1,10 @@
+
+public class ChatSession {
+
+	private long sessionId;
+	private String customerUsername;
+	private Session customer;
+	private String representativeUsername;
+	private Session representative;
+	private ChatMessage creationMessage;
+}
