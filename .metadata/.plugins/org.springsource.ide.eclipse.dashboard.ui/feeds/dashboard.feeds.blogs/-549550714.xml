@@ -5,7 +5,30 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2015-08-11T11:37:00Z</updated>
+  <updated>2015-08-12T03:40:12Z</updated>
+  <entry>
+    <title>This Week in Spring - August 11, 2015</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/08/12/this-week-in-spring-august-11-2015" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2015-08-12:2211</id>
+    <updated>2015-08-12T03:40:12Z</updated>
+    <content type="html">&lt;p&gt;Welcome to another installation of &lt;em&gt;This Week in Spring&lt;/em&gt;! As usual, we&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring ninja Stephane Nicoll just announced &lt;a href="http://spring.io/blog/2015/08/11/spring-boot-1-3-0-m3-available-now"&gt;Spring Boot 1.3.0.M3&lt;/a&gt;, chock full of great features including HTTP session persistence, JMS and AMQP improvements, logging improvements, and auto-configurations for the H2 Database console and embedded MongoDB.&lt;/li&gt;
+  &lt;li&gt;Spring Batch lead &lt;a href="http://spring.io/blog/2015/08/10/spring-batch-3-0-5-release-is-now-available"&gt;Michael Minella just announced Spring Batch 3.0.5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out this cool look &lt;a href="http://www.javacodegeeks.com/2015/08/processing-twitter-feed-using-spring-boot.html"&gt;at using Spring Boot to process Twitter feeds with Neo4j&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;check out this interesting Chinese-language &lt;a href="http://samchu.logdown.com/posts/290211-spring-boot-yaml-uses"&gt;post on using &lt;code&gt;.yml&lt;/code&gt; with Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Disid corporation has &lt;a href="http://spring.io/blog/2015/08/11/spring-roo-1-3-2-rc1-maintenance-release-now-available"&gt;just announced a maintenance release for Spring Roo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Just saw this post. Our very own &lt;a href="http://blog.pivotal.io/pivotal-cloud-foundry/pivotal-people/meet-cornelia-davis-pivotals-role-model-for-women-in-cloud"&gt;Cornelia Davis, director of platform engineering, was recognized as one of the top 10 women in cloud&lt;/a&gt; by CloudNOW! As she has for years now, &lt;a href="https://2015.event.springone2gx.com/presenters/cornelia_davis.html"&gt;she&amp;rsquo;ll be at SpringOne2GX&lt;/a&gt;..&lt;/li&gt;
+  &lt;li&gt;the All &amp;amp; Sundry blog has a cool post looking at how &lt;a href="http://www.java-allandsundry.com/2015/08/working-with-spring-cloud-and-netflix_8.html"&gt;to use Netflix&amp;rsquo;s Archaius with Spring Cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Speaking of configuration management, check out this post on &lt;a href="http://blog.pivotal.io/pivotal-cloud-foundry/products/app-configuration-management-with-config-servers-in-cloud-foundry"&gt;using configuration servers, including the Spring Cloud Config Server, on Cloud Foundry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;i dig this post on using &lt;a href="http://www.journaldev.com/8748/spring-4-mvc-security-managing-roles-example-with-in-memorywithout-web-xml-and-without-spring-xml-configuration"&gt;straight Java configuration to configure Spring Security roles&lt;/a&gt; in a Spring MVC web application.&lt;/li&gt;
+  &lt;li&gt;our very own Michael Cote asked me to record a podcast or two with him. &lt;a href="http://blog.pivotal.io/pivotal-conversations/features/injecting-cloud-native-thinking-into-java-with-spring-boot?utm_source=social&amp;account_id&amp;utm_medium=TWITTER&amp;pivotal&amp;utm_campaign=Products&amp;20150808"&gt;The first installment is now available&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Spring Roo 1.3.2 RC1 maintenance release now available</title>
     <link rel="alternate" href="https://spring.io/blog/2015/08/11/spring-roo-1-3-2-rc1-maintenance-release-now-available" />
@@ -454,16 +477,5 @@ public class MyTests {&#xD;
   &lt;li&gt;User Managed POM [&lt;a href="https://jira.spring.io/browse/ROO-3465"&gt;ROO-3465&lt;/a&gt;], [&lt;a href="https://jira.spring.io/browse/ROO-3478"&gt;ROO-3478&lt;/a&gt;]&lt;/li&gt;
   &lt;li&gt;First version of the new Web UI [&lt;a href="https://jira.spring.io/browse/ROO-3629"&gt;ROO-3629&lt;/a&gt;]&lt;/li&gt;
 &lt;/ul&gt;&lt;p&gt;Additionally &lt;a href="http://spring.io/tools"&gt;Spring Tool Suite&lt;/a&gt; (STS) team is working in releasing the STS 3.7.0 which will include the Spring IDE Roo Support for Roo 2.0.0. If you want to install the updated Roo components before, you would do it manually via the Spring IDE nightly update site. &lt;/p&gt;&lt;p&gt;For more specific information about Spring Roo project please see the&lt;br/&gt;&lt;a href="http://projects.spring.io/spring-roo/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-roo"&gt;GitHub&lt;/a&gt;&lt;/p&gt;&lt;p&gt;As always, you&amp;rsquo;ll also find Roo on Twitter - either follow&lt;br/&gt;&lt;a href="https://www.twitter.com/springroo"&gt;@SpringRoo&lt;/a&gt; or just include #SpringRoo in&lt;br/&gt;your tweets.&lt;/p&gt;&lt;p&gt;Stay tuned to Spring Roo news!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework 4.2 RC3 released / GA on July 30</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/07/15/spring-framework-4-2-rc3-released-ga-on-july-30" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Juergen Hoeller</name>
-    </author>
-    <id>tag:spring.io,2015-07-13:2188</id>
-    <updated>2015-07-15T16:11:00Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring community,&lt;/p&gt;&lt;p&gt;Spring Framework 4.2 is not going GA today quite yet, but it&amp;rsquo;s almost there: RC3 is available from &lt;a href="http://repo.spring.io"&gt;repo.spring.io&lt;/a&gt; now, as a last release candidate before we reach &lt;a href="https://jira.spring.io/browse/SPR/fixforversion/15244"&gt;GA&lt;/a&gt; on the 30th of July. This release includes &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10000&amp;version=14954"&gt;50 fixes and improvements&lt;/a&gt; over RC2, waiting for you to try them!&lt;/p&gt;&lt;p&gt;We decided to do another release candidate for several reasons: e.g. our continued wait for &lt;a href="https://github.com/FasterXML/jackson"&gt;Jackson&lt;/a&gt; 2.6 final and &lt;a href="http://hibernate.org/orm/"&gt;Hibernate ORM&lt;/a&gt; 5.0 final but also our recent build upgrade to &lt;a href="http://gradle.org/"&gt;Gradle&lt;/a&gt; 2.5 and some last-minute refinements within our 4.2 web story (based on RC1/RC2 feedback).&lt;/p&gt;&lt;p&gt;I&amp;rsquo;m pleased to announce that this is in fact the first release of Spring which builds fine not only on JDK 8 but also on &lt;a href="https://jdk9.java.net/download/"&gt;current JDK 9 snapshots&lt;/a&gt;! Our master build script is capable of running in both environments, so simply update your JAVA_HOME and trigger the framework build&amp;hellip;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note that Spring Framework 4.2 is runtime-compatible with Java 6, 7, 8 (including the upcoming 8u60) and early 9 (JDK 9 build 72) at this point, using the very same standard framework jars. However, for executing the framework build, you&amp;rsquo;ll have to use JDK 8 or 9.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Next stop: 4.2 GA on July 30, 2015! The countdown has started already&amp;hellip;&lt;/p&gt;&lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;</content>
   </entry>
 </feed>
