@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+
+	<!-- BEGIN BOOTSTRAP SPRING USING XML -->
+	<!-- BEGIN ROOT CONTEXT -->
+<!-- 	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/rootContext.xml</param-value>
+	</context-param>
+	<listener>
+		<listener-class>com.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener> 
+-->
+	<!-- END ROOT CONTEXT -->
+
+	<!-- BEGIN DISPACHER SERVLET -->
+<!-- 	<servlet>
+		<servlet-name>springServlet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet </servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/servletContext.xml</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springServlet</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping> 
+-->
+	<!-- END DISPACHER SERVLET -->
+	<!-- BEGIN BOOTSTRAP SPRING USING XML -->
+	
+	<!-- BEGIN BOOTSTRAP STRING USING JAVA CONFIGURATION -->
+	<context-param>
+		<param-name>contextClass</param-name>
+		<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
+	</context-param>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>com.spring.config.RootContext</param-value>
+	</context-param>
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<!-- END BOOTSTRAP STRING USING JAVA CONFIGURATION -->
+</web-app>
