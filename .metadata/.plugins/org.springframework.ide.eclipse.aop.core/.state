@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="FromZero"/>
+<aop-project name="SpringFromZero"/>
+<aop-project name="Ch13-Model-View-Controller"/>
 <aop-project name="Ch9_Fitler_ASYNC"/>
-<aop-project name="PENHCHET SHOPPING"/>
 </aop-reference-model>
