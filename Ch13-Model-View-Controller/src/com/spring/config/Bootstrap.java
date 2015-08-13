@@ -1,5 +1,6 @@
 package com.spring.config;
 
+import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
@@ -27,6 +28,7 @@ public class Bootstrap implements WebApplicationInitializer {
 		ServletRegistration.Dynamic dispatcher = container.addServlet(
 				"springDispatcher", new DispatcherServlet(servletContext));
 		dispatcher.setLoadOnStartup(1);
+		dispatcher.setMultipartConfig(new MultipartConfigElement(null, 20_971_520L, 41_943_040L, 512_00));
 		dispatcher.addMapping("/");
 
 /*		XmlWebApplicationContext rootContext = new XmlWebApplicationContext();

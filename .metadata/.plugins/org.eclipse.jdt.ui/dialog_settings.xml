@@ -53,6 +53,9 @@
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="3" key="index"/>
+	</section>
 	<section name="JavaSearchPage">
 		<item value="0" key="HISTORY_SIZE"/>
 		<item value="false" key="CASE_SENSITIVE"/>

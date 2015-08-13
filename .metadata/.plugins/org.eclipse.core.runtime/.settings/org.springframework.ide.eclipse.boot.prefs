@@ -1,0 +1,3 @@
+default.install=Boot 1.2.5.RELEASE
+eclipse.preferences.version=1
+installs=http\://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.2.5.RELEASE/spring-boot-cli-1.2.5.RELEASE-bin.zip\\;Boot 1.2.5.RELEASE\\;;

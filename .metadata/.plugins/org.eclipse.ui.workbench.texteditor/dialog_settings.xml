@@ -9,16 +9,17 @@
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
 			<item value="ISO-8859-1"/>
+			<item value="UTF-8"/>
 			<item value="message"/>
 			<item value="txtMessage"/>
 			<item value="btnSendMessage"/>
 			<item value="send"/>
 			<item value="Pleasure"/>
 			<item value="notification"/>
-			<item value="send-message-button"/>
 		</list>
 		<list key="replacehistory">
 			<item value="UTF-8"/>
+			<item value=""/>
 			<item value="com.penhchet.shopping.filter"/>
 		</list>
 	</section>
