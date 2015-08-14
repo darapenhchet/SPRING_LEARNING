@@ -1,0 +1,7 @@
+package com.spring.site.form;
+
+public class ReplyForm {
+
+	private String user;
+	private String message;
+}

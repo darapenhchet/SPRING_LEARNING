@@ -1,0 +1,10 @@
+package com.spring.site;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+@RequestMapping("discussion/{discussionId:\\d+}")
+public class DiscussionController {
+
+	
+}

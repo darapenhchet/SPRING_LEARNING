@@ -1,0 +1,8 @@
+package com.spring.site.form;
+
+public class DiscussionForm {
+
+	private String user;
+	private String subject;
+	private String message;
+}

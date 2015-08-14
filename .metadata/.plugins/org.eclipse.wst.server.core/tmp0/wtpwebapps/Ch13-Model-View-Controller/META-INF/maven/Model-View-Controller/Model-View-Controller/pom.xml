@@ -92,12 +92,20 @@
 			<scope>compile</scope>
 		</dependency>
 		<!-- BEGIN WEBSOCKET DEPENDENCY -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>javax.websocket</groupId>
 			<artifactId>javax.websocket-api</artifactId>
 			<version>${websocket.version}</version>
 			<scope>provided</scope>
+		</dependency> -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-websocket</artifactId>
+			<version>${spring.version}</version>
+			<scope>compile</scope>
 		</dependency>
+
+
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>

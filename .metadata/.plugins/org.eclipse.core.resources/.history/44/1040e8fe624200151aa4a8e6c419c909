@@ -1,0 +1,14 @@
+package com.spring.site.entity;
+
+import java.time.Instant;
+
+public class Discussion {
+
+	private long id;
+	private String user;
+	private String subject;
+	private String uriSaftSubject;
+	private String message;
+	private Instant created_at;
+	private Instant lastUpdated_at;
+}

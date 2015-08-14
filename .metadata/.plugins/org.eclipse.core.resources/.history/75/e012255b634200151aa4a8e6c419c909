@@ -1,0 +1,10 @@
+package com.spring.site.entity;
+
+public class Reply {
+
+	private long id;
+	private long discussionId;
+	private String user;
+	private String message;
+	private Instant created;
+}

@@ -1,0 +1,19 @@
+package com.spring.site;
+
+import java.util.Map;
+
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class DiscussionController {
+
+	@Inject DiscussionService discussionService;
+	
+	@RequestMapping(value = {"", "list"}, method = RequestMethod.GET)
+	public String listDiscussions(Map<String, Object> model){
+		return "discussion/list";
+	}
+}
