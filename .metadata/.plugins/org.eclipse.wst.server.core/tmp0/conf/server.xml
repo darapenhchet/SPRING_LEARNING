@@ -73,11 +73,9 @@
          style configuration. When using the APR/native implementation, the
          OpenSSL style configuration is required as described in the APR/native
          documentation -->
-    <!--
-    <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
-               maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-               clientAuth="false" sslProtocol="TLS" />
-    -->
+  
+        <Connector SSLEnabled="true" clientAuth="false" keystoreFile="c:\mkyongkeystore" keystorePass="12345678" maxThreads="150" port="8443" protocol="HTTP/1.1" scheme="https" secure="true" sslProtocol="TLS"/>
+   
 
     <!-- Define an AJP 1.3 Connector on port 8009 -->
     <Connector port="8009" protocol="AJP/1.3" redirectPort="8443"/>
@@ -124,7 +122,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\SPRING_LEARNING\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\SPRING_LEARNING\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Ch13-Model-View-Controller" path="/Model-View-Controller" reloadable="true" source="org.eclipse.jst.jee.server:Ch13-Model-View-Controller"/></Host>
+      <Context docBase="D:\SPRING_LEARNING\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\SPRING_LEARNING\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Spring-Hibernate" path="/Spring-Hibernate" reloadable="true" source="org.eclipse.jst.jee.server:Spring-Hibernate"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -13,6 +13,7 @@ import javax.websocket.server.ServerEndpoint;
 public class MyWhiteboard {
 	private static Set<Session> peers = Collections.synchronizedSet(new HashSet<Session>());
 	
+	
 	@OnMessage
 	public String onMessage(String message){
 		sendMessageToAll(message);
@@ -21,6 +22,7 @@ public class MyWhiteboard {
 	
 	@OnOpen
 	public void onOpen(Session peer){
+		System.out.println("OPEN CONENCTION");
 		peers.add(peer);
 	}
 	

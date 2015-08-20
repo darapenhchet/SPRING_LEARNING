@@ -1,7 +1,0 @@
-package com.penhchet.shopping.filter;
-
-import javax.servlet.Filter;
-
-public class AuthenticationFilter implements Filter{
-
-}

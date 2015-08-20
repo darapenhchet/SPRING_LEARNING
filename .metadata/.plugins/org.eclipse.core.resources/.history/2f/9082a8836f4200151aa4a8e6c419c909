@@ -1,0 +1,30 @@
+package com.spring.site;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import com.spring.site.entity.Discussion;
+
+public class DefaultDiscussionService implements DiscussionService{
+
+	@Inject DiscussionRepository discussionRepository;
+	@Override
+	public List<Discussion> getAllDiscussions() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Discussion getDiscussion(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void saveDiscussion(Discussion discussion) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

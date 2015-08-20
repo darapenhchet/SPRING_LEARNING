@@ -2,7 +2,10 @@
 <aop-reference-model>
 <aop-project name="FromZero"/>
 <aop-project name="SpringFromZero"/>
+<aop-project name="Ch14-Repository-Service-Controller"/>
 <aop-project name="customer-support"/>
+<aop-project name="Spring-One-Context-XML"/>
 <aop-project name="Ch13-Model-View-Controller"/>
+<aop-project name="discussion-board"/>
 <aop-project name="Ch9_Fitler_ASYNC"/>
 </aop-reference-model>

@@ -18,4 +18,17 @@
 		<item value="76" key="y"/>
 		<item value="531" key="height"/>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Spring-One-Context-XML"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Spring-One-Context-XML"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 </section>

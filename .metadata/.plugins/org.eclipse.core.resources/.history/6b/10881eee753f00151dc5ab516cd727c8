@@ -1,7 +1,0 @@
-package com.penhchet.shopping.listener;
-
-import javax.servlet.ServletContextListener;
-
-public class Configrator implements ServletContextListener{
-
-}
