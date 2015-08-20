@@ -3,6 +3,7 @@ package com.spring.site.entity;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import com.spring.site.validation.Email;
 import com.spring.site.validation.NotBlank;
 
 public class EmployeeForm {
@@ -16,6 +17,10 @@ public class EmployeeForm {
 	private String lastName;
 	
 	private String middleName;
+	
+	@NotBlank(message = "{validate.employee.email}")
+	@Email(message = "{validate.employee.email}")
+	private String email;
 
 	public String getFirstName() {
 		return firstName;
@@ -39,5 +44,13 @@ public class EmployeeForm {
 	
 	public void setMiddleName(String middleName) {
 		this.middleName = middleName;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }

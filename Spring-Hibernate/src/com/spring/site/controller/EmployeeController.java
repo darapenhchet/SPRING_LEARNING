@@ -46,6 +46,8 @@ public class EmployeeController {
 		employee.setFirstName(form.getFirstName());
 		employee.setLastName(form.getLastName());
 		employee.setMiddleName(form.getMiddleName());
+		employee.setEmail(form.getEmail());
+		
 		try{
 			this.employeeService.saveEmployee(employee);
 		}catch(ConstraintViolationException e){

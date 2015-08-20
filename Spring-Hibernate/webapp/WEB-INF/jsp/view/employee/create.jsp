@@ -49,6 +49,14 @@
 		<br />
 		<form:errors path="lastName" cssClass="errors" />
 		<br />
+		<form:label path="email">
+			<spring:message code="form.email" />
+		</form:label>
+		<br />
+		<form:input path="email" />
+		<br />
+		<form:errors path="email" cssClass="errors" />
+		<br />
 		<input type="submit" value="Submit" />
 	</form:form>
 </body>
