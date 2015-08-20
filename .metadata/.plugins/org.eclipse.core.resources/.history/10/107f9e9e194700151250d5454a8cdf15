@@ -1,0 +1,7 @@
+package com.spring.site.validation;
+
+public @interface Email {
+	
+	String message() default "{com.spring.site.validation.Emial.message}";
+
+}

@@ -1,0 +1,13 @@
+package com.spring.site.validation;
+
+import javax.validation.Payload;
+
+public @interface Email {
+	
+	String message() default "{com.spring.site.validation.Emial.message}";
+	
+	Class<?>[] groups() default {};
+	
+	Class<? extends Payload>[] payload() default {}; 
+
+}
