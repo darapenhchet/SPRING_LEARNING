@@ -49,7 +49,7 @@ public class EmployeeController {
 		try{
 			this.employeeService.saveEmployee(employee);
 		}catch(ConstraintViolationException e){
-			model.put("validationErrros", e.getConstraintViolations());
+			model.put("validationErrors", e.getConstraintViolations());
 			return new ModelAndView("employee/create");
 		}
 		

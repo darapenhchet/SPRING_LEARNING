@@ -6,59 +6,63 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 
+import com.spring.site.validation.Email;
+import com.spring.site.validation.NotBlank;
+
 public class Employee {
 	private long id;
 	
-	@NotNull(message = "{validate.employee.firstName}")
+	@NotBlank(message = "{validate.employee.firstName}")
 	private String firstName;
 	
-	@NotNull(message ="{validate.employee.lastName}")
+	@NotBlank(message ="{validate.employee.lastName}")
 	private String lastName;
 	
 	private String middleName;
 	
-	@NotNull(message= "{validate.employee.governmentId}")
+	@NotBlank(message= "{validate.employee.governmentId}")
 	private String governmentId;
 	
-	@NotNull(message= "{validate.employee.birthdate}")
+	@NotBlank(message= "{validate.employee.birthdate}")
 	@Past(message= "{validate.employee.birthdate}")
 	private Date birthDate;
 	
-	@NotNull(message= "{validate.employee.gender}")
+	@NotBlank(message= "{validate.employee.gender}")
 	private Gender gener;
 	
-	@NotNull(message= "{validate.employee.badgeNumber}")
+	@NotBlank(message= "{validate.employee.badgeNumber}")
 	private String badgeNumber;
 	
-	@NotNull(message= "{validate.employee.address}")
+	@NotBlank(message= "{validate.employee.address}")
 	private String address;
 	
-	@NotNull(message= "{validate.employee.city}")
+	@NotBlank(message= "{validate.employee.city}")
 	private String city;
 	
-	@NotNull(message= "{validate.employee.state}")
+	@NotBlank(message= "{validate.employee.state}")
 	private String state;
 	
-	@NotNull(message= "{validate.employee.phoneNumber}")
+	@NotBlank(message= "{validate.employee.phoneNumber}")
 	private String phoneNumber;
 	
-	@NotNull(message= "{validate.employee.email}")
-	@Pattern(
+	@NotBlank(message= "{validate.employee.email}")
+	/*@Pattern(
 			regexp = "^[a-z0-9`!#$%^&*'{}?/+=|_~-]+(\\.[a-z0-9`!#$%^&*'{}?/+=" +
  "|_~-]+)*@([a-z0-9]([a-z0-9-]*[a-z0-9])?)+(\\.[a-z0-9]" +
  "([a-z0-9-]*[a-z0-9])?)*$",
  			flags = {Pattern.Flag.CASE_INSENSITIVE},
  			message = "{validate.employee.email}"
-			)	
+			)	*/
+	@Email
 	private String email;
 	
-	@NotNull(message = "{validate.employee.department}")
+	@NotBlank(message = "{validate.employee.department}")
 	private String department;
 	
-	@NotNull(message= "{validate.employee.location}")
+	@NotBlank(message= "{validate.employee.location}")
 	private String location;
 	
-	@NotNull(message= "{validate.employee.position}")
+	@NotBlank(message= "{validate.employee.position}")
 	private String position;
 	
 	public long getId() {

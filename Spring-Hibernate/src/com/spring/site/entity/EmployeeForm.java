@@ -3,14 +3,16 @@ package com.spring.site.entity;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import com.spring.site.validation.NotBlank;
+
 public class EmployeeForm {
 
-	@NotNull(message = "{validate.employee.firstName}")
-	@Size(min=1, message = "{validate.employee.firstName}")
+	@NotBlank(message = "{validate.employee.firstName}")
+	@Size(min=1, message = "MIN<=1{validate.employee.firstName}")
 	private String firstName;
 	
-	@NotNull(message = "{validate.employee.lastName}")
-	@Size(min=1, message = "{validate.employee.lastName}")
+	@NotBlank(message = "{validate.employee.lastName}")
+	@Size(min=1, message = "MIN<=1{validate.employee.lastName}")
 	private String lastName;
 	
 	private String middleName;
