@@ -1,0 +1,8 @@
+package com.spring.site.controller.rest;
+
+import com.spring.config.annotation.RestEndpoint;
+
+@RestEndpoint
+public class AccountRestEndpoint {
+
+}

@@ -1,0 +1,10 @@
+package com.spring.site.service;
+
+import org.springframework.validation.annotation.Validated;
+
+@Validated
+public interface AccountService {
+	
+	public List<Account>
+
+}

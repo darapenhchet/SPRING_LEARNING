@@ -1,0 +1,12 @@
+package com.spring.site.form;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "account")
+public class AccountForm
+{
+    private String name;
+    private String billingAddress;
+    private String shippingAddress;
+    private String phoneNumber;
+}

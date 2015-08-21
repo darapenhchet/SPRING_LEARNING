@@ -1,0 +1,5 @@
+package com.spring.site.controller.rest;
+
+public class AccountRestEndpoint {
+
+}

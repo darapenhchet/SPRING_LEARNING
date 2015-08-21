@@ -1,0 +1,12 @@
+package com.spring.site.controller.rest;
+
+import javax.inject.Inject;
+
+import com.spring.config.annotation.RestEndpoint;
+import com.spring.site.service.AccountService;
+
+@RestEndpoint
+public class AccountRestEndpoint {
+
+	@Inject AccountService accountService;
+}

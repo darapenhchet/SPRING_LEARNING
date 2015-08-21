@@ -1,0 +1,78 @@
+package com.spring.site.controller.rest;
+
+import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
+
+import javax.xml.bind.annotation.XmlAttribute;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+
+import com.spring.config.annotation.RestEndpoint;
+
+@RestEndpoint
+public class IndexRestEndpoint {
+	
+	@RequestMapping(value = {"" , "/"}, method = RequestMethod.GET,
+			produces = {"application/json", "text/json"})
+	public Map<String, Object> discoverJson(){
+		ServletUriComponentsBuilder builder =
+				ServletUriComponentsBuilder.fromCurrentServletMapping();
+		Map<String, JsonLink> links = new Hashtable<>(2);
+		links.put("self", new JsonLink(builder.path("").build().toString()));
+		links.put("account", new JsonLink(builder.path("/account").build().toString()));
+		
+	}
+	
+	public static class JsonLink{
+		private String href;
+		
+		public JsonLink(String href){
+			this.href = href;
+		}
+		@XmlAttribute
+		public String getHref(){
+			return this.href;
+		}
+		public void setHref(String href){
+			this.href = href;
+		}
+	}
+	
+	public static class Link extends JsonLink{
+		private String rel;
+		
+		public Link(String rel, String href){
+			super(href);
+			this.rel = rel;
+		}
+		
+		@XmlAttribute
+		public String getRel(){
+			return this.rel;
+		}
+		
+		public void setRel(String rel){
+			this.rel = rel;
+		}
+	}
+	
+	public static class Resource{
+		private List<Link> links = new ArrayList<>();
+		
+		public List<Link> getLinks(){
+			return this.links;
+		}
+		
+		public void setLinks(List<Link> links ){
+			this.links = links;
+		}
+		
+		public void addLink(Link link){
+			links.add(link);
+		}
+	}
+}

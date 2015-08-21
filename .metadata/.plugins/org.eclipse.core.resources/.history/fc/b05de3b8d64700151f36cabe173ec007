@@ -1,0 +1,10 @@
+package com.spring.site.entity;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Account {
+	private long id;
+	private Instant lastModified;
+	
+}
