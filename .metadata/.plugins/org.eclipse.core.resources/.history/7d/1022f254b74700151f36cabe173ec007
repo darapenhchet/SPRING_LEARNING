@@ -1,0 +1,31 @@
+package com.spring.config;
+
+import javax.inject.Inject;
+import javax.xml.bind.Marshaller;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.oxm.Unmarshaller;
+import org.springframework.validation.beanvalidation.SpringValidatorAdapter;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.spring.config.annotation.RestEndpoint;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan(
+		basePackages = "com.spring.site",
+		useDefaultFilters = false,
+		includeFilters = @ComponentScan.Filter(RestEndpoint.class)
+		
+)
+
+public class RestServletContextConfiguration extends WebMvcConfigurerAdapter{
+	@Inject ObjectMapper objectMapper;
+	@Inject Marshaller marshaller;
+	@Inject Unmarshaller unmarshaller;
+	@Inject SpringValidatorAdapter validator;
+
+}

@@ -1,0 +1,22 @@
+package com.spring.site.exception;
+
+import javax.xml.bind.annotation.XmlAttribute;
+
+import org.apache.catalina.valves.ErrorReportValve;
+import org.springframework.http.ResponseEntity;
+
+import com.spring.config.annotation.RestEndpointAdvice;
+
+@RestEndpointAdvice
+public class RestExceptionHanlder {
+
+	public static class ErrorItem{
+		private String code;
+		private String message;
+		
+		@XmlAttribute
+		public String getCode(){
+			return this.code;
+		}
+	}
+}

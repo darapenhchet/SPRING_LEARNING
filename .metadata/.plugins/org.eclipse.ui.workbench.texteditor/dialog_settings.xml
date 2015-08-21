@@ -9,16 +9,17 @@
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
 			<item value="ISO-8859-1"/>
+			<item value="valide"/>
+			<item value="MethodValidationPostProcessor"/>
 			<item value="UTF-8"/>
 			<item value="message"/>
 			<item value="txtMessage"/>
 			<item value="btnSendMessage"/>
 			<item value="send"/>
-			<item value="Pleasure"/>
-			<item value="notification"/>
 		</list>
 		<list key="replacehistory">
 			<item value="UTF-8"/>
+			<item value="validate"/>
 			<item value=""/>
 			<item value="com.penhchet.shopping.filter"/>
 		</list>

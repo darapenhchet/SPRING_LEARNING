@@ -1,0 +1,5 @@
+package com.spring.site.exception;
+
+public class ResourceNotFoundException {
+
+}
