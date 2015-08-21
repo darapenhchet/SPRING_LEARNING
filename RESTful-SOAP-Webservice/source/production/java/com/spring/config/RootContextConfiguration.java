@@ -18,10 +18,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 @Configuration
-@ComponentScan(
-		basePackages = "com.spring.site", 
-		excludeFilters = @ComponentScan.Filter({Controller.class, ControllerAdvice.class})
-)
+@ComponentScan(basePackages = "com.spring.site", excludeFilters = @ComponentScan.Filter({
+		Controller.class, ControllerAdvice.class }))
 public class RootContextConfiguration {
 
 	@Bean
@@ -29,10 +27,8 @@ public class RootContextConfiguration {
 		ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
 		messageSource.setCacheSeconds(-1);
 		messageSource.setDefaultEncoding(StandardCharsets.UTF_8.name());
-		messageSource.setBasenames(
-				"/WEB-INF/i18n/titles",
-				"/WEB-INF/i18n/errors", 
-				"/WEB-INF/i18n/messages",
+		messageSource.setBasenames("/WEB-INF/i18n/titles",
+				"/WEB-INF/i18n/errors", "/WEB-INF/i18n/messages",
 				"/WEB-INF/i18n/validation");
 		return messageSource;
 	}

@@ -11,6 +11,7 @@ import javax.xml.bind.annotation.XmlValue;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.spring.config.annotation.RestEndpointAdvice;
 
@@ -52,6 +53,7 @@ public class RestExceptionHanlder {
 		}
 	}
 	
+	@ExceptionHandler(ConstraintViolationException.class)
 	public ResponseEntity<ErrorResponse> handle(ConstraintViolationException e){
 		ErrorResponse errors = new ErrorResponse();
 		for(ConstraintViolation violation : e.getConstraintViolations()){
