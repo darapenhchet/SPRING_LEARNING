@@ -7,6 +7,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlValue;
 
 import org.springframework.http.HttpStatus;
@@ -38,6 +39,7 @@ public class RestExceptionHanlder {
 		}
 	}
 	
+	@XmlRootElement(name = "errors")
 	public static class ErrorResponse{
 		private List<ErrorItem> errors = new ArrayList<>();
 		

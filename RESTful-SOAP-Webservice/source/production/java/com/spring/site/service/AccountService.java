@@ -4,10 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 
-import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 
 import com.spring.site.entity.Account;

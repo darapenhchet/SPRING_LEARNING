@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -44,7 +46,7 @@ public class IndexRestEndpoint {
 		ServletUriComponentsBuilder builder = ServletUriComponentsBuilder.fromCurrentServletMapping();
 		
 		Resource resource = new Resource();
-		resource.addLink(new Link("selft", builder.path("").build().toString()));
+		resource.addLink(new Link("self", builder.path("").build().toString()));
 		resource.addLink(new Link("account",builder.path("/account").build().toString()));
 		
 		return resource;
@@ -85,9 +87,11 @@ public class IndexRestEndpoint {
 		}
 	}
 	
+	@XmlRootElement
 	public static class Resource{
 		private List<Link> links = new ArrayList<>();
 		
+		@XmlElement(name = "link")
 		public List<Link> getLinks(){
 			return this.links;
 		}
