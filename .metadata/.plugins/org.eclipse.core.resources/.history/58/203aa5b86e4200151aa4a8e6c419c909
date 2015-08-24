@@ -1,6 +1,0 @@
-package com.spring.site;
-
-public interface DiscussionRepository {
-
-	public List<Discussion> getAll();
-}

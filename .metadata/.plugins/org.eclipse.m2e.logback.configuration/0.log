@@ -12583,3 +12583,442 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: markup not 
 2015-08-21 17:29:58,379 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
 2015-08-21 17:29:58,380 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-08-21 17:29:58,383 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:11:08,530 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:08,545 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch13-Model-View-Controller\src\main\resources
+2015-08-24 08:11:08,561 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:08,561 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch13-Model-View-Controller\src\test\resources
+2015-08-24 08:11:09,170 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:09,186 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch14-Repository-Service-Controller\src\main\resources
+2015-08-24 08:11:09,186 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:09,186 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch14-Repository-Service-Controller\src\test\resources
+2015-08-24 08:11:09,537 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:09,537 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\main\resources
+2015-08-24 08:11:09,552 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:09,552 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_ASYNC\src\test\resources
+2015-08-24 08:11:09,646 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:09,662 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_Order\src\main\resources
+2015-08-24 08:11:09,662 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:09,662 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Ch9_Fitler_Order\src\test\resources
+2015-08-24 08:11:10,769 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:10,769 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:11:10,769 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:10,769 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:11:11,522 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:11,529 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Spring-Hibernate\src\main\resources
+2015-08-24 08:11:11,531 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:11,535 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Spring-Hibernate\src\test\resources
+2015-08-24 08:11:11,730 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:11,730 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Spring-One-Context-XML\src\main\resources
+2015-08-24 08:11:11,730 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:11:11,730 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\Spring-One-Context-XML\src\test\resources
+2015-08-24 08:11:13,433 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:13,448 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:13,468 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:13,469 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:14,021 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:14,022 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:14,025 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:14,025 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:14,671 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:14,671 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:14,693 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:14,694 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:15,089 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:15,089 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:15,093 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:15,096 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:15,404 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:15,404 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:15,423 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:15,426 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:15,908 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:15,909 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:11:15,911 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:11:15,911 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:19:10,944 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-24 08:19:14,126 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 08:19:17,151 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTful-SOAP-Webservice/src
+2015-08-24 08:19:17,152 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RESTful-SOAP-Webservice/src/test/java because it overlaps with /RESTful-SOAP-Webservice/src
+2015-08-24 08:19:18,244 [Worker-4] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RESTful-SOAP-Webservice
+2015-08-24 08:19:18,249 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2015-08-24 08:19:29,485 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:19:29,582 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:19:29,583 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:19:29,588 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:21:36,601 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:21:36,680 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:21:36,682 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:21:36,689 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:21:52,295 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:21:52,382 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:21:52,384 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:21:52,389 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:22:04,432 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:22:04,544 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:22:04,546 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:22:04,558 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:31:10,376 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:31:10,493 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:31:10,495 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:31:10,499 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:31:13,631 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:31:13,758 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:31:13,758 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:31:13,758 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:32:14,493 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:32:14,568 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:32:14,569 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:32:14,575 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:32:17,852 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:32:17,852 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:32:17,852 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:32:17,868 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:32:19,993 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:32:19,993 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:32:19,993 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:32:19,993 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:37:32,990 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:37:33,068 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:37:33,068 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:37:33,084 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:37:35,271 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:37:35,271 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:37:35,287 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:37:35,287 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:41:20,517 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-24 08:41:23,628 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 08:41:25,810 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTful-SOAP-Webservice/src
+2015-08-24 08:41:25,810 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RESTful-SOAP-Webservice/src/test/java because it overlaps with /RESTful-SOAP-Webservice/src
+2015-08-24 08:41:26,312 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RESTful-SOAP-Webservice
+2015-08-24 08:41:26,318 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2015-08-24 08:41:27,947 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:41:28,075 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:41:28,076 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:41:28,085 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:54:02,620 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 08:54:04,539 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE.pom
+2015-08-24 08:54:04,836 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE.pom
+2015-08-24 08:54:05,524 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-parent/2.1.4.RELEASE/spring-ws-parent-2.1.4.RELEASE.pom
+2015-08-24 08:54:06,232 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-parent/2.1.4.RELEASE/spring-ws-parent-2.1.4.RELEASE.pom
+2015-08-24 08:54:06,486 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/2.1.4.RELEASE/spring-xml-2.1.4.RELEASE.pom
+2015-08-24 08:54:06,716 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/2.1.4.RELEASE/spring-xml-2.1.4.RELEASE.pom
+2015-08-24 08:54:06,951 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.4.RELEASE/spring-context-3.2.4.RELEASE.pom
+2015-08-24 08:54:07,185 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.4.RELEASE/spring-context-3.2.4.RELEASE.pom
+2015-08-24 08:54:07,420 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.4.RELEASE/spring-aop-3.2.4.RELEASE.pom
+2015-08-24 08:54:07,670 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.4.RELEASE/spring-aop-3.2.4.RELEASE.pom
+2015-08-24 08:54:08,628 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.4.RELEASE/spring-beans-3.2.4.RELEASE.pom
+2015-08-24 08:54:08,847 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/3.2.4.RELEASE/spring-beans-3.2.4.RELEASE.pom
+2015-08-24 08:54:09,082 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.4.RELEASE/spring-core-3.2.4.RELEASE.pom
+2015-08-24 08:54:09,332 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/3.2.4.RELEASE/spring-core-3.2.4.RELEASE.pom
+2015-08-24 08:54:09,628 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.4.RELEASE/spring-expression-3.2.4.RELEASE.pom
+2015-08-24 08:54:09,910 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/3.2.4.RELEASE/spring-expression-3.2.4.RELEASE.pom
+2015-08-24 08:54:10,160 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/3.2.4.RELEASE/spring-oxm-3.2.4.RELEASE.pom
+2015-08-24 08:54:10,394 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/3.2.4.RELEASE/spring-oxm-3.2.4.RELEASE.pom
+2015-08-24 08:54:11,705 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE.pom
+2015-08-24 08:54:11,939 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/3.2.4.RELEASE/spring-web-3.2.4.RELEASE.pom
+2015-08-24 08:54:12,392 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE.pom
+2015-08-24 08:54:12,635 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/3.2.4.RELEASE/spring-webmvc-3.2.4.RELEASE.pom
+2015-08-24 08:54:12,899 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.pom
+2015-08-24 08:54:13,118 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.pom
+2015-08-24 08:54:13,669 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE.jar
+2015-08-24 08:54:27,040 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-ws-core/2.1.4.RELEASE/spring-ws-core-2.1.4.RELEASE.jar
+2015-08-24 08:54:27,687 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/2.1.4.RELEASE/spring-xml-2.1.4.RELEASE.jar
+2015-08-24 08:54:30,062 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/ws/spring-xml/2.1.4.RELEASE/spring-xml-2.1.4.RELEASE.jar
+2015-08-24 08:54:30,724 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.4.RELEASE/spring-aop-3.2.4.RELEASE.jar
+2015-08-24 08:54:41,366 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/3.2.4.RELEASE/spring-aop-3.2.4.RELEASE.jar
+2015-08-24 08:54:42,257 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.jar
+2015-08-24 08:54:46,543 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.jar
+2015-08-24 08:54:48,572 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:customer-support:10.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 13\Eclipse\Customer-Support-v10\pom.xml.
+2015-08-24 08:54:49,708 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:discussion-board:1.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 14\Eclipse\Discussion-Board\pom.xml.
+2015-08-24 08:54:50,043 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:spring-hybrid-config:1.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 12\Eclipse\Spring-Hybrid-Config\pom.xml.
+2015-08-24 08:54:50,418 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:spring-java-config:1.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 12\Eclipse\Spring-Java-Config\pom.xml.
+2015-08-24 08:54:50,700 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:spring-xml-config:1.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 12\Eclipse\Spring-XML-Config\pom.xml.
+2015-08-24 08:54:50,934 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:spring-one-context-xml-config:1.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 12\Eclipse\Spring-One-Context-XML-Config\pom.xml.
+2015-08-24 08:54:51,215 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:hr-portal:1.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 16\Eclipse\HR-Portal\pom.xml.
+2015-08-24 08:54:51,540 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:web-service:1.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 17\Eclipse\Web-Service\pom.xml.
+2015-08-24 08:54:57,643 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:54:57,705 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:54:57,721 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:54:57,721 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:54:57,721 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 08:54:57,721 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 08:54:57,783 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:55:01,841 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:55:01,903 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 08:55:01,903 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 08:55:01,919 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 08:55:02,122 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,122 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:02,138 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,138 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:02,357 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,357 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:02,357 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,357 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:02,638 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,638 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:02,638 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,638 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:02,841 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,841 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:02,857 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:02,857 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:03,107 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:03,107 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:55:03,107 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:03,107 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:55:03,609 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:03,609 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:03,609 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:03,609 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:03,890 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:03,890 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:55:03,890 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:03,890 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 08:55:04,155 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:04,155 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 08:55:04,155 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 08:55:04,155 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 09:07:46,734 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.wrox:customer-support:14.0.0-SNAPSHOT @ D:\Professional-Java-for-Web-Applications-master\Chapter 17\Eclipse\Customer-Support-v14\pom.xml.
+2015-08-24 09:07:48,249 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 09:07:48,249 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-08-24 09:07:48,296 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 09:07:48,296 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-08-24 09:07:49,388 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 09:07:49,388 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 09:07:49,388 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-08-24 09:07:49,388 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-08-24 09:16:07,318 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:07,438 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:16:07,438 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:07,438 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:16:25,000 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:25,015 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:16:25,015 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:25,031 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:16:37,080 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:37,085 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:16:37,086 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:37,090 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:16:57,507 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:57,511 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:16:57,512 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:16:57,517 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:18:36,392 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:18:36,398 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:18:36,399 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:18:36,404 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:18:53,702 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:18:53,718 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:18:53,718 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:18:53,718 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:18:55,829 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:18:55,839 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:18:55,840 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:18:55,846 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:35:05,011 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-24 09:35:05,786 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 09:35:07,589 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTful-SOAP-Webservice/src
+2015-08-24 09:35:07,589 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RESTful-SOAP-Webservice/src/test/java because it overlaps with /RESTful-SOAP-Webservice/src
+2015-08-24 09:35:08,164 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RESTful-SOAP-Webservice
+2015-08-24 09:35:08,170 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2015-08-24 09:35:10,039 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:35:10,241 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:35:10,242 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:35:10,260 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:36:49,652 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:36:49,730 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:36:49,730 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:36:49,730 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:37:09,807 [Worker-40] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 09:37:11,032 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:37:11,032 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:37:11,032 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:37:11,048 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:37:11,048 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 09:37:11,048 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 09:37:11,048 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:37:12,758 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:37:12,794 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:37:12,795 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:37:12,842 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:37:16,836 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-24 09:37:17,381 [Worker-34] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 09:37:18,596 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTful-SOAP-Webservice/src
+2015-08-24 09:37:18,596 [Worker-34] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RESTful-SOAP-Webservice/src/test/java because it overlaps with /RESTful-SOAP-Webservice/src
+2015-08-24 09:37:18,846 [Worker-34] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RESTful-SOAP-Webservice
+2015-08-24 09:37:18,846 [Worker-34] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2015-08-24 09:37:20,048 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:37:20,082 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:37:20,084 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:37:20,091 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:53:45,535 [Worker-42] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 09:53:47,680 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/3.2.3/amqp-client-3.2.3.pom
+2015-08-24 09:53:48,055 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/3.2.3/amqp-client-3.2.3.pom
+2015-08-24 09:53:48,599 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/3.2.3/amqp-client-3.2.3.jar
+2015-08-24 09:53:55,463 [Worker-42] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/3.2.3/amqp-client-3.2.3.jar
+2015-08-24 09:53:56,908 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:53:57,018 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:53:57,019 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:53:57,023 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:53:57,023 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 09:53:57,023 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 09:53:57,026 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:53:59,899 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 09:54:01,191 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:54:01,254 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:54:01,254 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:54:01,269 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:54:01,269 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 09:54:01,269 [Worker-62] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 09:54:01,269 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:54:08,822 [Worker-67] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 09:54:09,774 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:54:09,899 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:54:09,915 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:54:09,930 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:54:09,930 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 09:54:09,930 [Worker-67] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 09:54:09,930 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:58:11,143 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:58:11,221 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:58:11,221 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:58:11,237 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:58:47,747 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:58:47,747 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:58:47,747 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:58:47,747 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 09:58:50,555 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:58:50,555 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 09:58:50,555 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 09:58:50,555 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 14:23:43,137 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-24 14:23:47,369 [Worker-87] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 14:23:53,018 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTful-SOAP-Webservice/src
+2015-08-24 14:23:53,018 [Worker-87] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RESTful-SOAP-Webservice/src/test/java because it overlaps with /RESTful-SOAP-Webservice/src
+2015-08-24 14:23:54,859 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RESTful-SOAP-Webservice
+2015-08-24 14:23:54,865 [Worker-87] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2015-08-24 14:23:57,314 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 14:23:57,402 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 14:23:57,403 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 14:23:57,409 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:26:46,118 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:26:46,169 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:26:46,170 [Worker-124] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:26:46,176 [Worker-124] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:26:50,689 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:26:50,722 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:26:50,723 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:26:50,728 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:27:05,518 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:05,643 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:27:05,644 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:05,655 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:27:09,387 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:09,416 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:27:09,417 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:09,440 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:27:14,445 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:14,449 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:27:14,451 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:14,454 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:27:16,597 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:16,601 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:27:16,602 [Worker-122] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:27:16,607 [Worker-122] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:30:45,382 [Worker-132] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 16:30:54,220 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:30:54,252 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:30:54,254 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:30:54,258 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:30:54,259 [Worker-132] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 16:30:54,259 [Worker-132] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 16:30:54,309 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:30:56,581 [Worker-132] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 16:30:58,130 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:30:58,204 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:30:58,206 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:30:58,211 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:30:58,211 [Worker-132] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 16:30:58,211 [Worker-132] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 16:30:58,219 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:06,788 [Worker-126] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 16:38:09,216 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:09,600 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:38:09,601 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:10,744 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:38:10,757 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 16:38:10,757 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 16:38:10,763 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:14,066 [Worker-128] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 16:38:15,321 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:15,376 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:38:15,377 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:15,381 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:38:15,381 [Worker-128] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 16:38:15,381 [Worker-128] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 16:38:15,383 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:19,689 [Worker-126] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 16:38:51,302 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:51,739 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:38:51,740 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:38:51,776 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:38:51,776 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 16:38:51,776 [Worker-126] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 16:38:51,785 [Worker-126] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:39:01,274 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:39:01,279 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:39:01,280 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:39:01,284 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:44:51,773 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:44:51,811 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:44:51,811 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:44:51,815 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:44:54,426 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:44:54,429 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:44:54,430 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:44:54,435 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:45:03,620 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:03,625 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:45:03,627 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:03,632 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:45:10,670 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:10,678 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:45:10,679 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:10,685 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:45:25,495 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:25,499 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:45:25,500 [Worker-134] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:25,504 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 16:45:42,886 [Worker-135] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-24 16:45:46,094 [Worker-135] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 16:45:48,581 [Worker-135] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTful-SOAP-Webservice/src
+2015-08-24 16:45:48,581 [Worker-135] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RESTful-SOAP-Webservice/src/test/java because it overlaps with /RESTful-SOAP-Webservice/src
+2015-08-24 16:45:49,106 [Worker-135] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RESTful-SOAP-Webservice
+2015-08-24 16:45:49,110 [Worker-135] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2015-08-24 16:45:50,052 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:50,164 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 16:45:50,165 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 16:45:50,169 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 17:29:28,620 [Worker-150] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 17:29:30,370 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 17:29:30,455 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 17:29:30,457 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 17:29:30,460 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 17:29:30,460 [Worker-150] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RESTful-SOAP-Webservice
+2015-08-24 17:29:30,461 [Worker-150] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RESTful-SOAP-Webservice
+2015-08-24 17:29:30,464 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 17:29:39,377 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 17:29:39,398 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 17:29:39,399 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 17:29:39,404 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
+2015-08-24 17:32:06,722 [Worker-153] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-08-24 17:32:09,750 [Worker-153] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: RESTful-SOAP-Webservice:RESTful-SOAP-Webservice:0.0.1-SNAPSHOT @ D:\SPRING_LEARNING\RESTful-SOAP-Webservice\pom.xml.
+2015-08-24 17:32:13,017 [Worker-153] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTful-SOAP-Webservice/src
+2015-08-24 17:32:13,017 [Worker-153] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RESTful-SOAP-Webservice/src/test/java because it overlaps with /RESTful-SOAP-Webservice/src
+2015-08-24 17:32:13,854 [Worker-153] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RESTful-SOAP-Webservice
+2015-08-24 17:32:13,858 [Worker-153] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2015-08-24 17:32:15,690 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 17:32:15,728 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\main\resources
+2015-08-24 17:32:15,729 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-08-24 17:32:15,733 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SPRING_LEARNING\RESTful-SOAP-Webservice\src\test\resources
