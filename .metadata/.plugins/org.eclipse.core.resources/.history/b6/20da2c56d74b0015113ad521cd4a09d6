@@ -1,0 +1,10 @@
+package com.penhchet.data.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="CREDENTIAL")
+public class Credential {
+
+}

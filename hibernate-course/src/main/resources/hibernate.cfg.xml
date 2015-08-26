@@ -23,6 +23,7 @@
 		<mapping class="com.penhchet.data.entities.User" />
 		<mapping class="com.penhchet.data.entities.TimeTest" />
 		<mapping class="com.penhchet.data.entities.Bank" />
+		<mapping class="com.penhchet.data.entities.Credential" />
 	</session-factory>
 
 </hibernate-configuration>

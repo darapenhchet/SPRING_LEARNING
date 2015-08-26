@@ -15,6 +15,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.TableGenerator;
@@ -37,6 +38,17 @@ public class User {
 	//	table ="IFINANCES_KEYS", pkColumnName="PK_NAME", valueColumnName= "PK_VALUE")
 	@Column(name = "USER_ID")
 	private Long userId;
+	
+	@OneToOne(mappedBy="user")
+	private Credential credential;
+
+	public Credential getCredential() {
+		return credential;
+	}
+
+	public void setCredential(Credential credential) {
+		this.credential = credential;
+	}
 
 	@Column(name = "FIRST_NAME")
 	private String firstName;

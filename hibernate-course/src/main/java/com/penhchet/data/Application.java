@@ -8,6 +8,7 @@ import org.hibernate.Transaction;
 
 import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Bank;
+import com.penhchet.data.entities.Credential;
 import com.penhchet.data.entities.User;
 
 public class Application {
@@ -155,6 +156,59 @@ public class Application {
 		
 		// MAP MAPPING COMPOSITE COLLECTION
 		
+/*		Session session = HibernateUtil.getSessionFactory().openSession();
+		
+		try{
+			Transaction transaction = session.beginTransaction();
+			
+			User user = new User();
+			user.setBirthDate(getMyBirthday());
+			user.setCreatedDate(new Date());
+			user.setCreatedBy("PENHCHET");
+			user.setEmailAddress("darapenhchet@gmail.com");
+			user.setFirstName("PENHCHET");
+			user.setLastName("DARA");
+			user.setLastUpdatedBy("PENHCHET");
+			user.setLastUpdatedDate(new Date());
+			
+			Address address = new Address();
+			address.setAddressLine1("PHNOM PENH");
+			address.setAddressLine2("SIEM REAP");
+			address.setCity("PHNOM PENH");
+			address.setState("PP");
+			address.setZipCode("855");
+			
+			Address address1 = new Address();
+			address1.setAddressLine1("PP");
+			address1.setAddressLine2("SIEM REAP");
+			address1.setCity("PP");
+			address1.setState("PP");
+			address1.setZipCode("855");
+			
+			user.getAddress().add(address);
+			user.getAddress().add(address1);
+			
+			Credential credential = new Credential();
+			credential.setUsername("admin");
+			credential.setPassword("admin");
+			
+			credential.setUser(user);
+			user.setCredential(credential);
+			
+			session.save(credential);
+			
+			transaction.commit();
+			
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}
+		
+		*/
+		
+		// ENTITY ASSOCIATION OneToOne Unidirectional + Bidirectional
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		
 		try{
@@ -187,9 +241,24 @@ public class Application {
 			user.getAddress().add(address);
 			user.getAddress().add(address1);
 			
-			session.save(user);
+			Credential credential = new Credential();
+			credential.setUsername("admin");
+			credential.setPassword("admin");
+			
+			credential.setUser(user);
+			user.setCredential(credential);
+			
+			session.save(credential);
 			
 			transaction.commit();
+			
+			User dbUser = session.get(User.class, credential.getUser().getUserId());
+					
+			System.out.println("DB FIRSTNAME="+dbUser.getFirstName());
+			
+			Credential dbCredential = session.get(Credential.class, user.getCredential().getCredentialId());
+			
+			System.out.println("USERNAME="+dbCredential.getUsername());
 			
 		}catch(Exception ex){
 			ex.printStackTrace();
