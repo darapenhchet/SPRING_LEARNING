@@ -113,6 +113,8 @@ public class Application {
 		}	
 		*/
 		
+		// MAP VALUE_TYPE COLLECTION
+	/*		
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		
 		try{
@@ -140,6 +142,52 @@ public class Application {
 			bank.getContacts().put("Software Developer","RAVUTH");
 			
 			session.save(bank);
+			
+			transaction.commit();
+			
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}
+ 	*/
+		
+		// MAP MAPPING COMPOSITE COLLECTION
+		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		
+		try{
+			Transaction transaction = session.beginTransaction();
+			
+			User user = new User();
+			user.setBirthDate(getMyBirthday());
+			user.setCreatedDate(new Date());
+			user.setCreatedBy("PENHCHET");
+			user.setEmailAddress("darapenhchet@gmail.com");
+			user.setFirstName("PENHCHET");
+			user.setLastName("DARA");
+			user.setLastUpdatedBy("PENHCHET");
+			user.setLastUpdatedDate(new Date());
+			
+			Address address = new Address();
+			address.setAddressLine1("PHNOM PENH");
+			address.setAddressLine2("SIEM REAP");
+			address.setCity("PHNOM PENH");
+			address.setState("PP");
+			address.setZipCode("855");
+			
+			Address address1 = new Address();
+			address1.setAddressLine1("PP");
+			address1.setAddressLine2("SIEM REAP");
+			address1.setCity("PP");
+			address1.setState("PP");
+			address1.setZipCode("855");
+			
+			user.getAddress().add(address);
+			user.getAddress().add(address1);
+			
+			session.save(user);
 			
 			transaction.commit();
 			
