@@ -1,0 +1,72 @@
+package com.penhchet.data.entities;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "BANK")
+public class Bank {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="BANK_ID")
+	private Long bankId;
+	
+	@Column(name="NAME")
+	private String name;
+	
+	private List<String> contacts = new LinkedList<String>();
+	
+	private Address address = new Address();
+	
+	private boolean international;
+	
+	public Long getBankId() {
+		return bankId;
+	}
+
+	public void setBankId(Long bankId) {
+		this.bankId = bankId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public List<String> getContacts() {
+		return contacts;
+	}
+
+	public void setContacts(List<String> contacts) {
+		this.contacts = contacts;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+	public boolean isInternational() {
+		return international;
+	}
+
+	public void setInternational(boolean international) {
+		this.international = international;
+	}
+	
+	
+}

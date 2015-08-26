@@ -1,0 +1,9 @@
+package com.penhchet.data.entities;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name="TIME_TEST")
+public class TimeTest {
+
+}

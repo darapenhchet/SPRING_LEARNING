@@ -1,0 +1,54 @@
+package com.penhchet.data;
+
+import java.util.Date;
+
+import org.hibernate.Session;
+
+import com.penhchet.data.entities.TimeTest;
+import com.penhchet.data.entities.User;
+
+public class Application {
+	
+	public static void main(String[] args) {
+		
+		/*
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		session.getTransaction().begin();
+		
+		User user = new User();
+		user.setBirthDate(new Date());
+		user.setCreatedDate(new Date());
+		user.setCreatedBy("PENHCHET");
+		user.setEmailAddress("kreysophannatt@gmail.com");
+		user.setFirstName("SOPHANNATT");
+		user.setLastName("KREY");
+		user.setLastUpdatedBy("PENHCHET");
+		user.setLastUpdatedDate(new Date());
+		
+		session.save(user);
+		session.getTransaction().commit();
+		session.close();
+		*/
+		
+		
+		/*Session session = HibernateUtil.getSessionFactory().openSession();
+		try{
+			session.getTransaction().begin();
+			
+			TimeTest test = new TimeTest(new Date());
+			session.save(test);
+			session.getTransaction().commit();
+			
+			session.refresh(test);
+			
+			System.out.println(test.toString());
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}*/
+		
+	}
+
+}

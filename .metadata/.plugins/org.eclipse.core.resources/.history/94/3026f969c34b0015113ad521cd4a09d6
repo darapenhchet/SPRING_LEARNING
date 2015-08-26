@@ -1,0 +1,34 @@
+package com.penhchet.data.entities;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="TIME_TEST")
+public class TimeTest {
+	
+	private Long timeTestId;
+	
+	private Date datetimeColumn;
+	
+	private Date timestampColoumn;
+	
+	private Date dateColumn;
+	
+	private Date timeColumn;
+	
+	private java.sql.Timestamp sqlDatetimeColumn;
+	
+	private java.sql.Timestamp sqlTimestampColumn;
+	
+	private java.sql.Date sqlDateColumn;
+	
+	private java.sql.Time sqlTimeColumn;
+	
+	public TimeTest(){
+		
+	}
+	
+}
