@@ -3,8 +3,10 @@ package com.penhchet.data.entities;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 import javax.persistence.CollectionTable;
 import javax.persistence.Column;
@@ -15,6 +17,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.MapKeyColumn;
 import javax.persistence.Table;
 
 @Entity
@@ -31,6 +34,8 @@ public class Bank {
 	
 	//private List<String> contacts = new LinkedList<String>();
 	
+	/*
+	// COLLECTION MAPPING
 	@ElementCollection
 	@CollectionTable(name="BANK_CONTACT", joinColumns=@JoinColumn(name="BANK_ID"))
 	@Column(name="NAME")
@@ -41,6 +46,21 @@ public class Bank {
 	}
 
 	public void setContacts(List<String> contacts) {
+		this.contacts = contacts;
+	}
+	*/
+	@ElementCollection
+	@CollectionTable(name="BANK_CONTACT", joinColumns=@JoinColumn(name="BANK_ID"))
+	@MapKeyColumn(name="POSITION_TYPE")
+	@Column(name="NAME")
+	private Map<String, String> contacts = new HashMap<String, String>();
+	
+
+	public Map<String, String> getContacts() {
+		return contacts;
+	}
+
+	public void setContacts(Map<String, String> contacts) {
 		this.contacts = contacts;
 	}
 

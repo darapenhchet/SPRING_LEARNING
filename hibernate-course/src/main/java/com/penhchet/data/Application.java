@@ -73,7 +73,7 @@ public class Application {
 		}*/
 		
 		
-		
+/*		
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		
 		try{
@@ -111,7 +111,44 @@ public class Application {
 			session.close();
 			HibernateUtil.getSessionFactory().close();
 		}	
+		*/
 		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		
+		try{
+			Transaction transaction = session.beginTransaction();
+			
+			Bank bank = new Bank();
+			bank.setName("ABA BANK");
+			bank.setCreatedBy("PENHCHET");
+			bank.setCreatedDate(new Date());
+			bank.setLastUpdatedBy("PENHCHET");
+			bank.setLastUpdatedDate(new Date());
+			bank.setInternational(false);
+			
+			Address address = new Address();
+			address.setAddressLine1("PHNOM PENH");
+			address.setAddressLine2("SIEM REAP");
+			address.setCity("PHNOM PENH");
+			address.setState("PP");
+			address.setZipCode("855");
+			// SET ADDRESS IN BANK
+			bank.setAddress(address);
+			
+			bank.getContacts().put("R A","SOPHANNATT");
+			bank.getContacts().put("Researcher Assistant","BORA");
+			bank.getContacts().put("Software Developer","RAVUTH");
+			
+			session.save(bank);
+			
+			transaction.commit();
+			
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}
 	}
 	
 	private static Date getMyBirthday(){
