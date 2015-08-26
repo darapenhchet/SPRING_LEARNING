@@ -12,11 +12,11 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Professional-Java-for-Web-Applications-master\Chapter 20\Eclipse\Entity-Mappings"/>
+			<item value="D:\Professional-Java-for-Web-Applications-master\Chapter 17\Eclipse\Customer-Support-v14"/>
 			<item value="D:\Professional-Java-for-Web-Applications-master\Chapter 17\Eclipse"/>
 			<item value="D:\Professional-Java-for-Web-Applications-master\Chapter 16\Eclipse"/>
 			<item value="D:\Professional-Java-for-Web-Applications-master\Chapter 12\Eclipse"/>
-			<item value="D:\Professional-Java-for-Web-Applications-master\Chapter 14\Eclipse\Discussion-Board"/>
-			<item value="D:\Professional-Java-for-Web-Applications-master\Chapter 13\Eclipse\Customer-Support-v10"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

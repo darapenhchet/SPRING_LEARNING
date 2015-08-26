@@ -1,0 +1,7 @@
+package com.penhchet.data;
+
+public class HibernateUtil {
+	
+	private static final SessionFactory sessionFactory  = buildSessionFactory();
+
+}

@@ -9,6 +9,6 @@
 <aop-project name="FromZero"/>
 <aop-project name="Ch14-Repository-Service-Controller"/>
 <aop-project name="Spring-Hibernate"/>
-<aop-project name="customer-support"/>
 <aop-project name="discussion-board"/>
+<aop-project name="Hibernate"/>
 </aop-reference-model>

@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.web.context.support.AnnotationConfigWebApplicationContext"/>
-<fullyQualifiedTypeName name="com.spring.config.RestServletContextConfiguration"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
-<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-<fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-<fullyQualifiedTypeName name="org.hibernate.validator.internal.xml.ElementType"/>
-<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
-<fullyQualifiedTypeName name="java.lang.annotation.RetentionPolicy"/>
-<fullyQualifiedTypeName name="java.lang.annotation.Documented"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
-<fullyQualifiedTypeName name="java.lang.annotation.Target"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="com.spring.config.annotation.RestEndpointAdvice"/>
 <fullyQualifiedTypeName name="org.apache.catalina.valves.ErrorReportValve"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlValue"/>
 <fullyQualifiedTypeName name="com.spring.site.exception.RestExceptionHanlder.ErrorItem"/>
@@ -24,8 +9,6 @@
 <fullyQualifiedTypeName name="org.springframework.validation.annotation.Validated"/>
 <fullyQualifiedTypeName name="javax.validation.Valid"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
-<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
-<fullyQualifiedTypeName name="org.apache.log4j.LogManager"/>
 <fullyQualifiedTypeName name="org.omg.PortableInterceptor.SYSTEM_EXCEPTION"/>
 <fullyQualifiedTypeName name="com.spring.config.annotation.WebController"/>
 <fullyQualifiedTypeName name="com.spring.site.service.AccountService"/>
@@ -59,5 +42,22 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.spring.site.entity.Account"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="org.springframework.scheduling.annotation.AsyncConfigurer"/>
+<fullyQualifiedTypeName name="org.springframework.scheduling.annotation.SchedulingConfigurer"/>
+<fullyQualifiedTypeName name="org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler"/>
+<fullyQualifiedTypeName name="org.apache.log4j.LogManager"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.EnableTransactionManagement"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate5.HibernateExceptionTranslator"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate5.HibernateTransactionManager"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate5.SessionFactoryUtils"/>
+<fullyQualifiedTypeName name="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate5.LocalSessionFactoryBuilder"/>
+<fullyQualifiedTypeName name="javax.naming.Context"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
+<fullyQualifiedTypeName name="javax.activation.DataSource"/>
+<fullyQualifiedTypeName name="com.mchange.v1.db.sql.DriverManagerDataSource"/>
 </qualifiedTypeNameHistroy>

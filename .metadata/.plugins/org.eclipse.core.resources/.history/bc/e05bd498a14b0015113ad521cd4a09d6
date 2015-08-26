@@ -1,0 +1,25 @@
+import java.util.Date;
+
+
+public class User {
+
+	private Long userId;
+	
+	private String firstName;
+	
+	private String lastName;
+	
+	private Date birthDate;
+	
+	private String emailAddress;
+	
+	private Date lastUpdatedDate;
+	
+	private String lastUpdatedBy;
+	
+	private Date createdDate;
+	
+	private String createdBy;
+	
+	
+}

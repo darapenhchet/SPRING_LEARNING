@@ -1,0 +1,7 @@
+hibernate.connection.username=root
+hibernate.connection.password=
+hibernate.connection.url=jdbc:mysql://localhost:3306/ifinances
+hibernate.connection.driver_class=com.mysql.jdbc.Driver
+hibernate.dialec=org.hibernate.dialect.MySQL5Dialect
+hibernate.show_sql=true
+hibernate.format_sql=true

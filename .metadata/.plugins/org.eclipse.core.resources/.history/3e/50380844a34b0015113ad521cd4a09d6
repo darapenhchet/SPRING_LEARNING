@@ -1,0 +1,21 @@
+package com.penhchet.data;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import com.penhchet.data.entities.User;
+
+public class HibernateUtil {
+	
+	private static final SessionFactory sessionFactory  = buildSessionFactory ();
+	
+	private static SessionFactory buildSessioFactory(){
+		try{
+			Configuration configuration = new Configuration();
+			configuration.addAnnotatedClass(User.class);
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+	}
+
+}
