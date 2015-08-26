@@ -6,6 +6,7 @@ import java.util.Date;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import com.penhchet.data.entities.Account;
 import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Bank;
 import com.penhchet.data.entities.Credential;
@@ -209,6 +210,7 @@ public class Application {
 		*/
 		
 		// ENTITY ASSOCIATION OneToOne Unidirectional + Bidirectional
+		/*
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		
 		try{
@@ -259,6 +261,23 @@ public class Application {
 			Credential dbCredential = session.get(Credential.class, user.getCredential().getCredentialId());
 			
 			System.out.println("USERNAME="+dbCredential.getUsername());
+			
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}
+		
+		*/
+		
+		// ONE TO MANY Unidirectional Mapping
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		
+		try{
+			Transaction transaction = session.beginTransaction();
+			
+			Account account = new Account();
 			
 		}catch(Exception ex){
 			ex.printStackTrace();
