@@ -7,8 +7,10 @@ import java.util.Date;
 import org.hibernate.Session;
 
 import com.penhchet.data.entities.Account;
+import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Budget;
 import com.penhchet.data.entities.Transaction;
+import com.penhchet.data.entities.User;
 
 public class Application {
 	
@@ -341,6 +343,11 @@ public class Application {
 			transaction.begin();
 			
 			Account account = new Account();
+			Account account1 = new Account();
+			
+			User user = new User();
+			User user1 = new User();
+			
 			
 			account.setName("PENHCHET");
 			account.setInitialBalance(new BigDecimal(1000.54));
@@ -352,43 +359,74 @@ public class Application {
 			account.setLastUpdatedBy("PENHCHET");
 			account.setCloseDate(new Date());
 			
-			Budget budget = new Budget();
-			budget.setGoalAmount(new BigDecimal(10000.00));
-			budget.setName("Emergency Fund");
-			budget.setPeroid("Yearly");
+			account1.setName("BORA");
+			account1.setInitialBalance(new BigDecimal(2000));
+			account1.setCurrentBalance(new BigDecimal(2000));
+			account1.setOpenDate(new Date());
+			account1.setCreatedDate(new Date());
+			account1.setCreatedBy("PENHCHET");
+			account1.setLastUpdatedDate(new Date());
+			account1.setLastUpdatedBy("PENHCHET");
+			account1.setCloseDate(new Date());
 			
-			Transaction shoePurchase = new Transaction();
-			shoePurchase.setAccount(account);
-			shoePurchase.setTitle("New Shoe");
-			shoePurchase.setAmount(new BigDecimal("100.00"));
-			shoePurchase.setClosingBalanace(new BigDecimal("0.00"));
-			shoePurchase.setCreatedBy("PENHCHET");
-			shoePurchase.setCreatedDate(new Date());
-			shoePurchase.setInitialBalance(new BigDecimal("0.00"));
-			shoePurchase.setLastUpdatedBy("PENHCHET");
-			shoePurchase.setLastUpdatedDate(new Date());
-			shoePurchase.setNotes("New Shoe Arrival");
-			shoePurchase.setTransactionType("Debit");
+			user.setBirthDate(getMyBirthday());
+			user.setCreatedDate(new Date());
+			user.setCreatedBy("PENHCHET");
+			user.setEmailAddress("darapenhchet@gmail.com");
+			user.setFirstName("PENHCHET");
+			user.setLastName("DARA");
+			user.setLastUpdatedBy("PENHCHET");
+			user.setLastUpdatedDate(new Date());
 			
-			Transaction beltPurchase = new Transaction();
-			beltPurchase.setAccount(account);
-			beltPurchase.setTitle("Jean Belt");
-			beltPurchase.setAmount(new BigDecimal("100.00"));
-			beltPurchase.setClosingBalanace(new BigDecimal("0.00"));
-			beltPurchase.setCreatedBy("PENHCHET");
-			beltPurchase.setCreatedDate(new Date());
-			beltPurchase.setInitialBalance(new BigDecimal("0.00"));
-			beltPurchase.setLastUpdatedBy("PENHCHET");
-			beltPurchase.setLastUpdatedDate(new Date());
-			beltPurchase.setNotes("New Jean Belt");
-			beltPurchase.setTransactionType("Debit");
+			Address address = new Address();
+			address.setAddressLine1("PHNOM PENH");
+			address.setAddressLine2("SIEM REAP");
+			address.setCity("PHNOM PENH");
+			address.setState("PP");
+			address.setZipCode("855");
 			
-			budget.getTransactions().add(shoePurchase);
-			budget.getTransactions().add(beltPurchase);
+			Address address1 = new Address();
+			address1.setAddressLine1("PP");
+			address1.setAddressLine2("SIEM REAP");
+			address1.setCity("PP");
+			address1.setState("PP");
+			address1.setZipCode("855");
 			
-			session.save(budget);
+			user1.setBirthDate(getMyBirthday());
+			user1.setCreatedDate(new Date());
+			user1.setCreatedBy("PENHCHET");
+			user1.setEmailAddress("darapenhchet@gmail.com");
+			user1.setFirstName("PENHCHET");
+			user1.setLastName("DARA");
+			user1.setLastUpdatedBy("PENHCHET");
+			user1.setLastUpdatedDate(new Date());
+				
+			user1.getAddress().add(address);
+			user1.getAddress().add(address1);
+			
+			account.getUsers().add(user);
+			account.getUsers().add(user1);
+			user.getAccounts().add(account);
+			user1.getAccounts().add(account);
+			
+			
+			account1.getUsers().add(user);
+			account1.getUsers().add(user1);
+			user.getAccounts().add(account1);
+			user1.getAccounts().add(account1);
+			
+			session.save(account);
+			session.save(account1);			
 			
 			transaction.commit();
+			
+			Account dbAccount = (Account) session.get(Account.class, account.getAccountId());
+			
+			System.out.println(dbAccount.getUsers().iterator().next().getEmailAddress());
+			
+			User dbUser = (User) session.get(User.class, user.getUserId());
+			
+			System.out.println(dbUser.getAccounts().iterator().next().getName());
 			
 						
 		}catch(Exception ex){
