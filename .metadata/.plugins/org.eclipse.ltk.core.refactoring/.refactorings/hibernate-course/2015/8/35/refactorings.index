@@ -7,3 +7,4 @@
 1440563861902	Rename resource 'Copy of hibernate.properties'
 1440579088504	Rename field 'adress'
 1440644077733	Rename type 'Buget'
+1440668327852	Extract superclass 'Investment'
