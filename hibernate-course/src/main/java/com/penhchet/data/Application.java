@@ -7,6 +7,7 @@ import java.util.Date;
 import org.hibernate.Session;
 
 import com.penhchet.data.entities.Account;
+import com.penhchet.data.entities.Budget;
 import com.penhchet.data.entities.Transaction;
 
 public class Application {
@@ -269,7 +270,7 @@ public class Application {
 		*/
 		
 		// ONE TO MANY Unidirectional Mapping + Bidirectional Mapping
-		Session session = HibernateUtil.getSessionFactory().openSession();
+/*		Session session = HibernateUtil.getSessionFactory().openSession();
 		
 		try{
 			org.hibernate.Transaction transaction = session.beginTransaction();
@@ -324,6 +325,71 @@ public class Application {
 			Transaction dbTransaction = session.get(Transaction.class, account.getTransactions().get(0).getTransactionId());
 			
 			System.out.println("ACCOUNT NAME="+ dbTransaction.getAccount().getName());
+						
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}*/
+		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		
+		try{
+			org.hibernate.Transaction transaction = session.beginTransaction();
+			
+			transaction.begin();
+			
+			Account account = new Account();
+			
+			account.setName("PENHCHET");
+			account.setInitialBalance(new BigDecimal(1000.54));
+			account.setCurrentBalance(new BigDecimal(1000.54));
+			account.setOpenDate(new Date());
+			account.setCreatedDate(new Date());
+			account.setCreatedBy("PENHCHET");
+			account.setLastUpdatedDate(new Date());
+			account.setLastUpdatedBy("PENHCHET");
+			account.setCloseDate(new Date());
+			
+			Budget budget = new Budget();
+			budget.setGoalAmount(new BigDecimal(10000.00));
+			budget.setName("Emergency Fund");
+			budget.setPeroid("Yearly");
+			
+			Transaction shoePurchase = new Transaction();
+			shoePurchase.setAccount(account);
+			shoePurchase.setTitle("New Shoe");
+			shoePurchase.setAmount(new BigDecimal("100.00"));
+			shoePurchase.setClosingBalanace(new BigDecimal("0.00"));
+			shoePurchase.setCreatedBy("PENHCHET");
+			shoePurchase.setCreatedDate(new Date());
+			shoePurchase.setInitialBalance(new BigDecimal("0.00"));
+			shoePurchase.setLastUpdatedBy("PENHCHET");
+			shoePurchase.setLastUpdatedDate(new Date());
+			shoePurchase.setNotes("New Shoe Arrival");
+			shoePurchase.setTransactionType("Debit");
+			
+			Transaction beltPurchase = new Transaction();
+			beltPurchase.setAccount(account);
+			beltPurchase.setTitle("Jean Belt");
+			beltPurchase.setAmount(new BigDecimal("100.00"));
+			beltPurchase.setClosingBalanace(new BigDecimal("0.00"));
+			beltPurchase.setCreatedBy("PENHCHET");
+			beltPurchase.setCreatedDate(new Date());
+			beltPurchase.setInitialBalance(new BigDecimal("0.00"));
+			beltPurchase.setLastUpdatedBy("PENHCHET");
+			beltPurchase.setLastUpdatedDate(new Date());
+			beltPurchase.setNotes("New Jean Belt");
+			beltPurchase.setTransactionType("Debit");
+			
+			budget.getTransactions().add(shoePurchase);
+			budget.getTransactions().add(beltPurchase);
+			
+			session.save(budget);
+			
+			transaction.commit();
+			
 						
 		}catch(Exception ex){
 			ex.printStackTrace();

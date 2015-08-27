@@ -26,6 +26,7 @@
 		<mapping class="com.penhchet.data.entities.Credential" />
 		<mapping class="com.penhchet.data.entities.Account" />
 		<mapping class="com.penhchet.data.entities.Transaction" />
+		<mapping class="com.penhchet.data.entities.Budget" />
 	</session-factory>
 
 </hibernate-configuration>
