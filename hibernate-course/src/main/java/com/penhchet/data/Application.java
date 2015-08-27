@@ -3,12 +3,15 @@ package com.penhchet.data;
 import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.Session;
 
 import com.penhchet.data.entities.Account;
 import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Budget;
+import com.penhchet.data.entities.Market;
 import com.penhchet.data.entities.Transaction;
 import com.penhchet.data.entities.User;
 
@@ -342,7 +345,7 @@ public class Application {
 			
 			transaction.begin();
 			
-			Account account = new Account();
+/*			Account account = new Account();
 			Account account1 = new Account();
 			
 			User user = new User();
@@ -426,7 +429,15 @@ public class Application {
 			
 			User dbUser = (User) session.get(User.class, user.getUserId());
 			
-			System.out.println(dbUser.getAccounts().iterator().next().getName());
+			System.out.println(dbUser.getAccounts().iterator().next().getName());*/
+			
+			Query query = session.createQuery("SELECT m FROM Market m");
+			
+			List<Market> markets = query.list();
+			
+			for(Market market : markets){
+				System.out.println(market.getMarketName());
+			}
 			
 						
 		}catch(Exception ex){

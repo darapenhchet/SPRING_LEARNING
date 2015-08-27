@@ -2,18 +2,16 @@ package com.penhchet.data;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 
-import com.penhchet.data.entities.Address;
-import com.penhchet.data.entities.Bank;
-import com.penhchet.data.entities.Currency;
-import com.penhchet.data.entities.CurrencyId;
 import com.penhchet.data.entities.Market;
-import com.penhchet.data.entities.User;
 
 public class ApplicationJPA {
 	
@@ -69,6 +67,7 @@ public class ApplicationJPA {
 			
 			*/
 			
+			/*
 			Currency currency = new Currency();
 			currency.setCountryName("KHMER");
 			currency.setName("Riel");
@@ -90,6 +89,23 @@ public class ApplicationJPA {
 			Market dbMarket = (Market) entityManager.find(Market.class, market.getMarketId());
 					
 			System.out.println("CURRENCY="+dbMarket.getCurrency().getName());
+			
+			*/
+/*			
+			Query query = entityManager.createQuery("FROM Market m");
+			List<Market> markets = query.getResultList();
+			
+			for(Market market : markets){
+				System.out.println(market.getMarketName());
+			}
+*/
+			TypedQuery<Market> query = entityManager.createQuery("FROM Market m", Market.class);
+			
+			List<Market> markets = query.getResultList();
+			
+			for(Market market : markets){
+				System.out.println(market.getMarketName());
+			}
 			
 		}catch(Exception e){
 			e.printStackTrace();
