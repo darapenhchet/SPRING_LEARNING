@@ -27,10 +27,7 @@ public class ApplicationJPA {
 		EntityTransaction transaction = null;
 		
 		try{
-			entityManagerFactory = Persistence.createEntityManagerFactory("ifinances");
-			entityManager = entityManagerFactory.createEntityManager();
-			transaction = entityManager.getTransaction();
-			
+		
 			transaction.begin();
 			
 			User user = new User();
@@ -50,16 +47,15 @@ public class ApplicationJPA {
 			address.setState("PP");
 			address.setZipCode("855");
 			
-			entityManager.persist(user);
+			em.persist(user);
 			
 			transaction.commit();
 			
+			em.close();
+			emf.close();
 		}catch(Exception e){
 			e.printStackTrace();
 			transaction.rollback();
-		}finally{
-			entityManager.close();
-			entityManagerFactory.close();
 		}
 	}
 	

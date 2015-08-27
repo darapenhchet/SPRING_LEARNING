@@ -27,10 +27,7 @@ public class ApplicationJPA {
 		EntityTransaction transaction = null;
 		
 		try{
-			entityManagerFactory = Persistence.createEntityManagerFactory("ifinances");
-			entityManager = entityManagerFactory.createEntityManager();
-			transaction = entityManager.getTransaction();
-			
+		
 			transaction.begin();
 			
 			User user = new User();
@@ -53,7 +50,6 @@ public class ApplicationJPA {
 			entityManager.persist(user);
 			
 			transaction.commit();
-			
 		}catch(Exception e){
 			e.printStackTrace();
 			transaction.rollback();

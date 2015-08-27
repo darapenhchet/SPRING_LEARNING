@@ -27,10 +27,7 @@ public class ApplicationJPA {
 		EntityTransaction transaction = null;
 		
 		try{
-			entityManagerFactory = Persistence.createEntityManagerFactory("ifinances");
-			entityManager = entityManagerFactory.createEntityManager();
-			transaction = entityManager.getTransaction();
-			
+			entityManagerFactory = Persistence.createEntityManagerFactory("ifinances")
 			transaction.begin();
 			
 			User user = new User();
