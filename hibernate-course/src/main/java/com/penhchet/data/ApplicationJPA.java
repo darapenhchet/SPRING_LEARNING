@@ -10,6 +10,8 @@ import javax.persistence.Persistence;
 
 import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Bank;
+import com.penhchet.data.entities.Currency;
+import com.penhchet.data.entities.CurrencyId;
 import com.penhchet.data.entities.User;
 
 public class ApplicationJPA {
@@ -57,13 +59,27 @@ public class ApplicationJPA {
 			
 			// 2. RETRIEVING ENTITY
 			
+			/*
 			User user = entityManager.getReference(User.class, 3L);
 			
 			System.out.println(entityManager.contains(user));
 			entityManager.remove(user);
 			System.out.println(entityManager.contains(user));
 			
+			*/
+			
+			Currency currency = new Currency();
+			currency.setCountryName("Cambodia");
+			currency.setName("Riel");
+			currency.setSymbol("R");
+			
+			entityManager.persist(currency);
+			
 			transaction.commit();
+			
+			Currency dbCurrency = (Currency)entityManager.find(Currency.class, new CurrencyId("Riel","Cambodia"));
+			
+			System.out.println(dbCurrency.getName());
 			
 		}catch(Exception e){
 			e.printStackTrace();
