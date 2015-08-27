@@ -12,6 +12,7 @@ import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Bank;
 import com.penhchet.data.entities.Currency;
 import com.penhchet.data.entities.CurrencyId;
+import com.penhchet.data.entities.Market;
 import com.penhchet.data.entities.User;
 
 public class ApplicationJPA {
@@ -69,17 +70,26 @@ public class ApplicationJPA {
 			*/
 			
 			Currency currency = new Currency();
-			currency.setCountryName("Cambodia");
+			currency.setCountryName("KHMER");
 			currency.setName("Riel");
 			currency.setSymbol("R");
 			
-			entityManager.persist(currency);
+			Market market = new Market();
+			market.setMarketName("KHMER Stock Exchange");
+			market.setCurrency(currency);
+			
+			entityManager.persist(market);
 			
 			transaction.commit();
 			
 			Currency dbCurrency = (Currency)entityManager.find(Currency.class, new CurrencyId("Riel","Cambodia"));
 			
 			System.out.println(dbCurrency.getName());
+			
+			
+			Market dbMarket = (Market) entityManager.find(Market.class, market.getMarketId());
+					
+			System.out.println("CURRENCY="+dbMarket.getCurrency().getName());
 			
 		}catch(Exception e){
 			e.printStackTrace();
