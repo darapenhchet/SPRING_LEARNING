@@ -1,0 +1,8 @@
+package com.penhchet.data.entities;
+
+public class CurrencyId {
+
+	private String name;
+	
+	private String countryName;
+}

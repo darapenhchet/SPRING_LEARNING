@@ -1,0 +1,20 @@
+package com.penhchet.data.entities;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+
+public class Investment {
+
+	@Column(name = "NAME")
+	protected String name;
+	@Column(name = "ISSUER")
+	protected String issuer;
+	@Column(name = "PURCHASE_DATE")
+	protected Date purchaseDate;
+
+	public Investment() {
+		super();
+	}
+
+}

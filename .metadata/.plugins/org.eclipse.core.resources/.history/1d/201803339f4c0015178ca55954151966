@@ -1,0 +1,32 @@
+package com.penhchet.data.entities;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="STOCK")
+public class Stock {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="STOCK_ID")
+	private Long stockId;
+	
+	
+	protected String name;
+	
+	protected String issuer;
+	
+	private Date purchaseDate;
+	
+	private BigDecimal sharePrice;
+	
+	private Long Quantity;
+}

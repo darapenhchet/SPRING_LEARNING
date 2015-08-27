@@ -4237,3 +4237,9 @@ Contains: Could not delete: D:\SPRING_LEARNING\hibernate-course\target\classes\h
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-27 17:24:32.694
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-27 17:28:23.401
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-27 17:28:23.412
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
