@@ -57,11 +57,11 @@ public class ApplicationJPA {
 			
 			// 2. RETRIEVING ENTITY
 			
-			User user = entityManager.getReference(User.class, 4L);
+			User user = entityManager.getReference(User.class, 3L);
+			
 			System.out.println(entityManager.contains(user));
-			System.out.println(user.getEmailAddress());
-			user.setFirstName("BORA");
-			user.setLastName("CHANN");
+			entityManager.remove(user);
+			System.out.println(entityManager.contains(user));
 			
 			transaction.commit();
 			
