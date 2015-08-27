@@ -2,7 +2,7 @@ package com.spring.config;
 
 import java.nio.charset.StandardCharsets;
 
-import javax.activation.DataSource;
+import javax.sql.DataSource;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.dialect.MySQL5InnoDBDialect;
@@ -80,30 +80,38 @@ public class RootContextConfiguration {
 		return new HibernateExceptionTranslator();
 	}
 
-/*	@Bean
+	@Bean
 	public HibernateTransactionManager transactionManager() {
 		HibernateTransactionManager manager = new HibernateTransactionManager();
 		manager.setSessionFactory(this.sessionFactory());
 		return manager;
-	}*/
+	}
 
-/*	@Bean
+	@Bean
 	public SessionFactory sessionFactory() {
 		LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(
 				this.dataSource());
-		builder.scanPackages("com.wrox.entities");
-		builder.setProperty("hibernate.default_schema", "dbo");
-		builder.setProperty("hibernate.dialect",
-				MySQL5InnoDBDialect.class.getCanonicalName());
+		builder.scanPackages("com.spring.site.entity");
+		//builder.setProperty("hibernate.default_schema", "dbo");
+		builder.setProperty("hibernate.dialect", MySQL5InnoDBDialect.class.getCanonicalName());
 		return builder.buildSessionFactory();
-	}*/
+	}
 
-/*	@Bean
+	@Bean
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setUrl("jdbc:mysql://localhost/SpringJpa");
-		dataSource.setUsername("tomcatUser");
-		dataSource.setPassword("password1234");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/ifinances");
+		dataSource.setUsername("root");
+		dataSource.setPassword("");
 		return dataSource;
+	}
+	
+/*	@Bean
+	public LocalEntityManagerFactoryBean entityManagerFactoryBean() {
+		LocalEntityManagerFactoryBean factory = new LocalEntityManagerFactoryBean();
+		factory.setPersistenceUnitName("SpringJpa");
+		factory.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
+		factory.setDataSource(this.springJpaDataSource());
+		return factory;
 	}*/
 }

@@ -32,7 +32,9 @@ public class ApplicationJPA {
 			transaction = entityManager.getTransaction();
 			
 			transaction.begin();
-			
+	
+			// 1. PERSIST DATA
+/*
 			User user = new User();
 			user.setBirthDate(getMyBirthday());
 			user.setCreatedDate(new Date());
@@ -51,6 +53,15 @@ public class ApplicationJPA {
 			address.setZipCode("855");
 			
 			entityManager.persist(user);
+*/
+			
+			// 2. RETRIEVING ENTITY
+			
+			User user = entityManager.getReference(User.class, 4L);
+			System.out.println(entityManager.contains(user));
+			System.out.println(user.getEmailAddress());
+			user.setFirstName("BORA");
+			user.setLastName("CHANN");
 			
 			transaction.commit();
 			
