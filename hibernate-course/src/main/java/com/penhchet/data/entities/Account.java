@@ -24,8 +24,9 @@ public class Account {
 	@Column(name = "ACCOUNT_ID")
 	private Long accountId;
 	
-	@OneToMany(cascade = CascadeType.ALL)
-	@JoinColumn(name="ACCOUNT_ID")
+	@OneToMany(cascade = CascadeType.ALL, mappedBy="account")
+	//@JoinColumn(name="ACCOUNT_ID", nullable=false)
+	//@JoinColumn(name="ACCOUNT_ID")
 	List<Transaction> transactions = new ArrayList<Transaction>();
 
 	@Column(name = "NAME")

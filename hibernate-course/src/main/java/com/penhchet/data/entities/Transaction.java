@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -19,11 +21,17 @@ public class Transaction {
 	@Column(name="TRANSACTION_ID")
 	private Long transactionId;
 	
+	@ManyToOne
+	@JoinColumn(name="ACCOUNT_ID")
 	private Account account;
 	
 	@Column(name="TRANSACTION_TYPE")
 	private String transactionType;
 	
+	@Column(name="TITLE")
+	private String title;
+	
+
 	@Column(name="AMOUNT")
 	private BigDecimal amount;
 	
@@ -33,8 +41,8 @@ public class Transaction {
 	@Column(name="CLOSING_BALANCE")
 	private BigDecimal closingBalanace;
 	
-	@Column(name="NOTE")
-	private String note;
+	@Column(name="NOTES")
+	private String notes;
 	
 	@Column(name = "LAST_UPDATED_DATE")
 	private Date lastUpdatedDate;
@@ -56,13 +64,13 @@ public class Transaction {
 		this.transactionId = transactionId;
 	}
 
-	public Account getAccount() {
+/*	public Account getAccount() {
 		return account;
 	}
 
 	public void setAccount(Account account) {
 		this.account = account;
-	}
+	}*/
 
 	public String getTransactionType() {
 		return transactionType;
@@ -128,12 +136,27 @@ public class Transaction {
 		this.createdBy = createdBy;
 	}
 
-	public String getNote() {
-		return note;
+	public String getNotes() {
+		return notes;
 	}
 
-	public void setNote(String note) {
-		this.note = note;
+	public void setNotes(String notes) {
+		this.notes = notes;
 	}
 	
+	public String getTitle() {
+		return title;
+	}
+	
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public Account getAccount() {
+		return account;
+	}
+
+	public void setAccount(Account account) {
+		this.account = account;
+	}
 }
