@@ -99,7 +99,12 @@ public class ApplicationJPA {
 				System.out.println(market.getMarketName());
 			}
 */
-			TypedQuery<Market> query = entityManager.createQuery("FROM Market m", Market.class);
+			//TypedQuery<Market> query = entityManager.createQuery("FROM Market m where m.id = ?", Market.class);
+			//TypedQuery<Market> query = entityManager.createQuery("FROM Market m where m.id = ?1", Market.class);
+			TypedQuery<Market> query = entityManager.createQuery("FROM Market m where m.id = :id", Market.class);
+			//Query query = entityManager.createQuery("FROM Market m");
+			
+			query.setParameter("id", 12L);
 			
 			List<Market> markets = query.getResultList();
 			

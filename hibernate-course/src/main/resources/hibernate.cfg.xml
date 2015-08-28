@@ -5,6 +5,7 @@
 <hibernate-configuration>
 
 	<session-factory>
+		<!-- <property name="hbm2ddl.auto">update</property> -->
 
 		<!-- Database connection settings -->
 		<property name="connection.username">root</property>
