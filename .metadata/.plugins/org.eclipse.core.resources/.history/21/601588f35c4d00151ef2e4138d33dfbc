@@ -15,8 +15,6 @@ public class HibernateCriteriaAPIApplication {
 	public static void main(String[] args) {
 		Session session = null;
 		org.hibernate.Transaction transaction = null;
-		int pageNumber =1 ;
-		int pageSize = 5;
 		try{
 			session = HibernateUtil.getSessionFactory().openSession();
 			transaction = session.getTransaction();
@@ -33,9 +31,6 @@ public class HibernateCriteriaAPIApplication {
 			criteria.add(Restrictions.and(criterion1, criterion2));
 			
 			criteria.addOrder(Order.desc("title"));
-			
-			criteria.setFirstResult((pageNumber-1) * pageSize);
-			criteria.setMaxResults(pageSize);
 			
 			List<Transaction> transactions = criteria.list();
 			

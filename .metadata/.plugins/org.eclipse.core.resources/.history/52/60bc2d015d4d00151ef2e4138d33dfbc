@@ -35,7 +35,6 @@ public class HibernateCriteriaAPIApplication {
 			criteria.addOrder(Order.desc("title"));
 			
 			criteria.setFirstResult((pageNumber-1) * pageSize);
-			criteria.setMaxResults(pageSize);
 			
 			List<Transaction> transactions = criteria.list();
 			

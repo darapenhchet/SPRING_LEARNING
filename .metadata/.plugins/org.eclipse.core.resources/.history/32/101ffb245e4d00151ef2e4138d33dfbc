@@ -45,7 +45,7 @@ public class JPACriterialAPIApplication {
 					cb.le(amountPath, new BigDecimal("20.00")), 
 					cb.equal(transactionTypePath,"withdrawl")));
 			
-			criteriaQuery.orderBy(cb.desc(root.get("amount")));
+			criteriaQuery.orderBy(cb.asc(root.get("amount")))
 					
 			TypedQuery<Transaction> query = em.createQuery(criteriaQuery);
 			query.setFirstResult((pageNumber - 1) * pageSize);
