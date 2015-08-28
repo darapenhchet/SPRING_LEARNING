@@ -30,6 +30,7 @@
 		<mapping class="com.penhchet.data.entities.Budget" />
 		<mapping class="com.penhchet.data.entities.Currency" />
 		<mapping class="com.penhchet.data.entities.Market" />
+		<mapping class="com.penhchet.data.entities.UserCredentialView" />
 	</session-factory>
 
 </hibernate-configuration>

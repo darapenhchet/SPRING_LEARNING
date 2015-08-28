@@ -1,22 +1,15 @@
 package com.penhchet.data;
 
-import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
-import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
-import com.penhchet.data.dao.UserHibernateDao;
-import com.penhchet.data.dao.interfaces.UserDao;
-import com.penhchet.data.entities.Account;
-import com.penhchet.data.entities.AccountType;
 import com.penhchet.data.entities.Address;
-import com.penhchet.data.entities.Budget;
-import com.penhchet.data.entities.Market;
-import com.penhchet.data.entities.Transaction;
+import com.penhchet.data.entities.Credential;
 import com.penhchet.data.entities.User;
+import com.penhchet.data.entities.UserCredentialView;
 
 public class Application {
 	
@@ -163,7 +156,7 @@ public class Application {
 		
 		// MAP MAPPING COMPOSITE COLLECTION
 		
-/*		Session session = HibernateUtil.getSessionFactory().openSession();
+/*     	Session session = HibernateUtil.getSessionFactory().openSession();
 		
 		try{
 			Transaction transaction = session.beginTransaction();
@@ -211,9 +204,9 @@ public class Application {
 		}finally{
 			session.close();
 			HibernateUtil.getSessionFactory().close();
-		}
+		}*/
 		
-		*/
+		
 		
 		// ENTITY ASSOCIATION OneToOne Unidirectional + Bidirectional
 		/*
@@ -345,8 +338,8 @@ public class Application {
 		
 		try{
 			
-			UserDao dao = new UserHibernateDao();
-			dao.setSession(session);
+			//UserDao dao = new UserHibernateDao();
+			//dao.setSession(session);
 			
 			org.hibernate.Transaction transaction = session.beginTransaction();
 			
@@ -448,7 +441,7 @@ public class Application {
 			
 			
 */
-
+/*
 			
 			Account account = new Account();
 			
@@ -495,9 +488,9 @@ public class Application {
 			account.getUsers().add(user);
 			user.getAccounts().add(account);
 			
-			//session.save(account);
+			session.save(account);
 			
-			dao.save(user);
+			//dao.save(user);
 			
 			transaction.commit();
 			
@@ -505,6 +498,11 @@ public class Application {
 			
 			System.out.println(dbAccount.getName());
 			System.out.println(dbAccount.getAccountType());
+			
+*/
+			UserCredentialView view = (UserCredentialView) session.load(UserCredentialView.class, 4L);
+			System.out.println(view.getFirstName());
+			System.out.println(view.getLastName());
 						
 		}catch(Exception ex){
 			ex.printStackTrace();
