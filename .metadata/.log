@@ -9672,3 +9672,9 @@ Contains: Could not delete: C:\Users\PENHCHET\AppData\Roaming\Skype\My Skype Rec
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-28 15:24:38.872
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-28 15:26:18.540
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-08-28 15:26:18.552
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
