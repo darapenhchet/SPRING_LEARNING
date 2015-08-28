@@ -33,7 +33,6 @@ INDEX VERSION 1.127+D:\SPRING_LEARNING\.metadata\.plugins\org.eclipse.jdt.core
 2539450811.index
 3271511373.index
 1546778095.index
-3725942963.index
 811510748.index
 520588414.index
 140216676.index

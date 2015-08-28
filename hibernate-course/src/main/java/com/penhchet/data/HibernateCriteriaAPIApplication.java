@@ -1,10 +1,13 @@
 package com.penhchet.data;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 import org.hibernate.Criteria;
 import org.hibernate.Session;
+import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Restrictions;
 
 import com.penhchet.data.entities.Transaction;
 
@@ -17,7 +20,15 @@ public class HibernateCriteriaAPIApplication {
 			transaction = session.getTransaction();
 			transaction.begin();
 			
+			Criterion criterion1 = Restrictions.le("amount", new BigDecimal("20.00"));
+			Criterion criterion2 = Restrictions.eq("transactionType", "Withdrawl");
+			
 			Criteria criteria = session.createCriteria(Transaction.class);
+			
+			//criteria.add(criterion1);
+			//criteria.add(criterion2);
+			
+			criteria.add(Restrictions.and(criterion1, criterion2));
 			
 			criteria.addOrder(Order.desc("title"));
 			

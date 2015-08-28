@@ -43,5 +43,5 @@ public class Currency {
 	public void setSymbol(String symbol) {
 		this.symbol = symbol;
 	}
-	
+
 }
