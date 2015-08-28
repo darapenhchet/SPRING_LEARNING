@@ -1,5 +1,7 @@
 package com.penhchet.data.entities;
 
-public class AccountType {
-
+public enum AccountType {
+	LOAN,
+	SAVINGS,
+	CHECKING
 }

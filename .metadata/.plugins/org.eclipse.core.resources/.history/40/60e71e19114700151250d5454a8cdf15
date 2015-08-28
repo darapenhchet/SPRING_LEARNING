@@ -1,8 +1,0 @@
-package com.spring.site.service;
-
-import org.springframework.stereotype.Service;
-
-@Servicer
-public class DefaultEmployeeService implements EmployeeService{
-
-}

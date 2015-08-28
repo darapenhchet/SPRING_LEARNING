@@ -9,6 +9,7 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 
 import com.penhchet.data.entities.Account;
+import com.penhchet.data.entities.AccountType;
 import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Budget;
 import com.penhchet.data.entities.Market;
@@ -431,14 +432,67 @@ public class Application {
 			
 			System.out.println(dbUser.getAccounts().iterator().next().getName());*/
 			
-			Query query = session.createQuery("SELECT m FROM Market m");
+/*			Query query = session.createQuery("SELECT m FROM Market m");
 			
 			List<Market> markets = query.list();
 			
 			for(Market market : markets){
 				System.out.println(market.getMarketName());
 			}
+*/
+			Account account = new Account();
 			
+			User user = new User();
+						
+			account.setName("PENHCHET");
+			account.setInitialBalance(new BigDecimal(1000.54));
+			account.setCurrentBalance(new BigDecimal(1000.54));
+			account.setOpenDate(new Date());
+			account.setCreatedDate(new Date());
+			account.setCreatedBy("PENHCHET");
+			account.setLastUpdatedDate(new Date());
+			account.setLastUpdatedBy("PENHCHET");
+			account.setCloseDate(new Date());
+			account.setAccountType(AccountType.SAVINGS);
+			
+			user.setBirthDate(getMyBirthday());
+			user.setCreatedDate(new Date());
+			user.setCreatedBy("PENHCHET");
+			user.setEmailAddress("darapenhchet@gmail.com");
+			user.setFirstName("PENHCHET");
+			user.setLastName("DARA");
+			user.setLastUpdatedBy("PENHCHET");
+			user.setLastUpdatedDate(new Date());
+			
+			Address address = new Address();
+			address.setAddressLine1("PHNOM PENH");
+			address.setAddressLine2("SIEM REAP");
+			address.setCity("PHNOM PENH");
+			address.setState("PP");
+			address.setZipCode("855");
+			
+			Address address1 = new Address();
+			address1.setAddressLine1("PP");
+			address1.setAddressLine2("SIEM REAP");
+			address1.setCity("PP");
+			address1.setState("PP");
+			address1.setZipCode("855");
+			
+				
+			user.getAddress().add(address);
+			user.getAddress().add(address1);
+			
+			account.getUsers().add(user);
+			user.getAccounts().add(account);
+			
+			session.save(account);
+			
+			transaction.commit();
+			
+			Account dbAccount = (Account) session.get(Account.class, account.getAccountId());
+			
+			System.out.println(dbAccount.getName());
+			System.out.println(dbAccount.getAccountType());
 						
 		}catch(Exception ex){
 			ex.printStackTrace();

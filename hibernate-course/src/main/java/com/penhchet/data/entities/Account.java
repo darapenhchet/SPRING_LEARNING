@@ -10,12 +10,15 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -33,6 +36,14 @@ public class Account {
 			   joinColumns = @JoinColumn(name="ACCOUNT_ID"),
 			   inverseJoinColumns = @JoinColumn(name="USER_ID"))
 	private Set<User> users = new HashSet<User>();
+	
+	@ManyToOne
+	@JoinColumn(name = "BANK_ID")
+	private Bank bank;
+	
+	@Enumerated(EnumType.STRING)
+	@Column(name="ACCOUNT_TYPE")
+	private AccountType accountType;
 		
 	@OneToMany(cascade = CascadeType.ALL, mappedBy="account")
 	//@JoinColumn(name="ACCOUNT_ID", nullable=false)
@@ -162,5 +173,20 @@ public class Account {
 		this.users = users;
 	}
 
+	public Bank getBank() {
+		return bank;
+	}
+
+	public void setBank(Bank bank) {
+		this.bank = bank;
+	}
+
+	public AccountType getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(AccountType accountType) {
+		this.accountType = accountType;
+	}
 	
 }

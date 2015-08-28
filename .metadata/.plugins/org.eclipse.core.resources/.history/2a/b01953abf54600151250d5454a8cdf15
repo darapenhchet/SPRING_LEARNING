@@ -1,6 +1,0 @@
-package com.spring.site.entity;
-
-public class Employee {
-	private long id;
-	private String firstName;
-}

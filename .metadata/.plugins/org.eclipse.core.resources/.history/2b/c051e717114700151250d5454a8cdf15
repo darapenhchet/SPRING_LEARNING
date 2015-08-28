@@ -1,5 +1,0 @@
-package com.spring.site.service;
-
-public class DefaultEmployeeService {
-
-}
