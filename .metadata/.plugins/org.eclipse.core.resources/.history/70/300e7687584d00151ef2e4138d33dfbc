@@ -1,0 +1,23 @@
+package com.penhchet.data;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+
+public class JPACriterialAPIApplication {
+
+	public static void main(String[] args) {
+		EntityManagerFactory emf = null;
+		EntityManager  em = null;
+		EntityTransaction tx = null;
+		try{
+			
+			tx.begin();
+			
+			tx.commit();
+		}catch(Exception ex){
+			tx.rollback();
+			ex.printStackTrace();
+		}
+	}
+}

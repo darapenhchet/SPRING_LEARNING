@@ -1,0 +1,8 @@
+package com.penhchet.data;
+
+public class HQLApplication {
+
+	public static void main(String[] args) {
+		
+	}
+}

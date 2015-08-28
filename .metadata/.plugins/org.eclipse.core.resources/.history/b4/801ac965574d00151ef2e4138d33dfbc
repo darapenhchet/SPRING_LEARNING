@@ -1,0 +1,19 @@
+package com.penhchet.data;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+public class HibernateCriteriaAPIApplication {
+	public static void main(String[] args) {
+		Session session = null;
+		Transaction transaction = null;
+		try{
+			session = HibernateUtil.getSessionFactory().openSession();
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}
+	}
+}

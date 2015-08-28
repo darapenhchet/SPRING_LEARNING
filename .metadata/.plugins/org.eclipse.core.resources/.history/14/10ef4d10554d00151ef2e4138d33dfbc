@@ -1,0 +1,22 @@
+package com.penhchet.data;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+public class HQLApplication {
+
+	public static void main(String[] args) {
+		Session session = null;
+		Transaction transaction = null;
+		
+		try{
+			
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}finally{
+			session.close();
+			HibernateUtil.getSessionFactory().close();
+		}
+	}
+}
