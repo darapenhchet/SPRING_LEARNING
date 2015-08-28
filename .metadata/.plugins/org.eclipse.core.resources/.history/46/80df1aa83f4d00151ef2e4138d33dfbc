@@ -10,7 +10,6 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.penhchet.data.entities.Account;
 import com.penhchet.data.entities.Address;
 import com.penhchet.data.entities.Credential;
 import com.penhchet.data.entities.Market;
@@ -452,11 +451,6 @@ public class Application {
 		Query query = session.createQuery("SELECT distinct t.account FROM Transaction t "
 										+" WHERE t.amount >500 and t.transactionType='Deposit'");
 			
-		List<Account> accounts = query.list();
-		
-		for(Account account : accounts){
-			System.out.println(account.getName());
-		}
 			
 
 /*

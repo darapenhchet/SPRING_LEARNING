@@ -114,14 +114,8 @@ public class ApplicationJPA {
 			//}
 			
 			TypedQuery<Account> query = entityManager.createQuery("SELECT distinct a FROM Transaction t"
-															    + " JOIN t.account a "
-																+ " WHERE t.amount > 500 and t.transactionType ='Deposit'", Account.class);
-			
-			List<Account> accounts = query.getResultList();
-			
-			for(Account account : accounts){
-				System.out.println(account.getName());
-			}
+																+" JOIN t.account a"
+																, Account.class);
 			
 		}catch(Exception e){
 			e.printStackTrace();

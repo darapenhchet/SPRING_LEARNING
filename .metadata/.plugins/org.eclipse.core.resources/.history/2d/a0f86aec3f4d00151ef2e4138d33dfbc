@@ -11,7 +11,6 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
-import com.penhchet.data.entities.Account;
 import com.penhchet.data.entities.Market;
 
 public class ApplicationJPA {
@@ -102,25 +101,15 @@ public class ApplicationJPA {
 */
 			//TypedQuery<Market> query = entityManager.createQuery("FROM Market m where m.id = ?", Market.class);
 			//TypedQuery<Market> query = entityManager.createQuery("FROM Market m where m.id = ?1", Market.class);
-			//TypedQuery<Market> query = entityManager.createQuery("FROM Market m where m.id = :id", Market.class);
+			TypedQuery<Market> query = entityManager.createQuery("FROM Market m where m.id = :id", Market.class);
 			//Query query = entityManager.createQuery("FROM Market m");
 			
-			//query.setParameter("id", 12L);
+			query.setParameter("id", 12L);
 			
-			//List<Market> markets = query.getResultList();
+			List<Market> markets = query.getResultList();
 			
-			//for(Market market : markets){
-			//	System.out.println(market.getMarketName());
-			//}
-			
-			TypedQuery<Account> query = entityManager.createQuery("SELECT distinct a FROM Transaction t"
-															    + " JOIN t.account a "
-																+ " WHERE t.amount > 500 and t.transactionType ='Deposit'", Account.class);
-			
-			List<Account> accounts = query.getResultList();
-			
-			for(Account account : accounts){
-				System.out.println(account.getName());
+			for(Market market : markets){
+				System.out.println(market.getMarketName());
 			}
 			
 		}catch(Exception e){
