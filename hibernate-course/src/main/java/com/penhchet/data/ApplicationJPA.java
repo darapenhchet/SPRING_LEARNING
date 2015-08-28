@@ -113,10 +113,21 @@ public class ApplicationJPA {
 			//	System.out.println(market.getMarketName());
 			//}
 			
-			TypedQuery<Account> query = entityManager.createQuery("SELECT distinct a FROM Transaction t"
+/*			TypedQuery<Account> query = entityManager.createQuery("SELECT distinct a FROM Transaction t"
 															    + " JOIN t.account a "
 																+ " WHERE t.amount > 500 and t.transactionType ='Deposit'", Account.class);
 			
+			List<Account> accounts = query.getResultList();
+			
+			for(Account account : accounts){
+				System.out.println(account.getName());
+			}*/
+			
+			/*TypedQuery<Account> query = entityManager.createQuery("SELECT distinct a FROM Transaction t"
+				    + " JOIN t.account a "
+					+ " WHERE t.amount > 500 and t.transactionType ='Deposit'", Account.class);*/
+
+			Query query = entityManager.createNamedQuery("Account.largeDeposits");
 			List<Account> accounts = query.getResultList();
 			
 			for(Account account : accounts){

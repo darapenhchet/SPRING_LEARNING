@@ -450,7 +450,7 @@ public class Application {
 		//}
 			
 		Query query = session.createQuery("SELECT distinct t.account FROM Transaction t "
-										+" WHERE t.amount >500 and t.transactionType='Deposit'");
+										+" WHERE t.amount >500 and LOWER(t.transactionType)='deposit'");
 			
 		List<Account> accounts = query.list();
 		
