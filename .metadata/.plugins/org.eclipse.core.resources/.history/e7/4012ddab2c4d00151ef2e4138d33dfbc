@@ -1,0 +1,8 @@
+package com.penhchet.data.dao;
+
+import com.penhchet.data.dao.interfaces.UserDao;
+import com.penhchet.data.entities.User;
+
+public class UserHibernateDao extends AbstractDao<User, Long> implements UserDao{
+
+}

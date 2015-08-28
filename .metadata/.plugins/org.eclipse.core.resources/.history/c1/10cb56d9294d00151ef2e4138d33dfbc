@@ -1,0 +1,21 @@
+package com.penhchet.data.dao;
+
+import java.io.Serializable;
+import java.lang.reflect.ParameterizedType;
+
+import org.hibernate.Session;
+
+import com.penhchet.data.dao.interfaces.Dao;
+
+public abstract class AbstractDao<T, ID extends Serializable> implements Dao<T, ID> {
+	
+	private Class<T> persistentClass;
+	
+	private Session session;
+	
+	public AbstractDao(){
+		this.persistentClass = (Class<T>)((ParameterizedType)getClass().getGenericSuperclass()).getActualTypeArguments().getClass();
+	}
+	
+
+}

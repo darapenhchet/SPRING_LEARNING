@@ -8,6 +8,8 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
+import com.penhchet.data.dao.UserHibernateDao;
+import com.penhchet.data.dao.interfaces.UserDao;
 import com.penhchet.data.entities.Account;
 import com.penhchet.data.entities.AccountType;
 import com.penhchet.data.entities.Address;
@@ -342,6 +344,10 @@ public class Application {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		
 		try{
+			
+			UserDao dao = new UserHibernateDao();
+			dao.setSession(session);
+			
 			org.hibernate.Transaction transaction = session.beginTransaction();
 			
 			transaction.begin();
@@ -439,7 +445,11 @@ public class Application {
 			for(Market market : markets){
 				System.out.println(market.getMarketName());
 			}
+			
+			
 */
+
+			
 			Account account = new Account();
 			
 			User user = new User();
@@ -485,7 +495,9 @@ public class Application {
 			account.getUsers().add(user);
 			user.getAccounts().add(account);
 			
-			session.save(account);
+			//session.save(account);
+			
+			dao.save(user);
 			
 			transaction.commit();
 			

@@ -1,0 +1,60 @@
+package com.penhchet.data.dao;
+
+import java.io.Serializable;
+import java.lang.reflect.ParameterizedType;
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.criterion.Criterion;
+
+import com.penhchet.data.dao.interfaces.Dao;
+
+public abstract class AbstractDao<T, ID extends Serializable> implements Dao<T, ID> {
+	
+	private Class<T> persistentClass;
+	
+	private Session session;
+	
+	public AbstractDao(){
+		this.persistentClass = (Class<T>)((ParameterizedType)getClass().getGenericSuperclass()).getActualTypeArguments().getClass();
+	}
+	
+	public void setSession(Session session){
+		this.session = session;
+	}
+
+	public T findById(ID id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<T> findAll() {
+		
+	}
+	
+	protected List<T> findByCriteria(Criterion ... criterion){
+		
+	}
+
+	public T save(T T) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void delete(T T) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void flush() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}	
+
+}

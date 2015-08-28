@@ -1,0 +1,5 @@
+package com.penhchet.data.dao.interfaces;
+
+public class UserDao {
+
+}

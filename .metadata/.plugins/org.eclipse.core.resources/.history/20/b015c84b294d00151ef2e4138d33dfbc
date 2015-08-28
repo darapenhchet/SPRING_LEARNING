@@ -1,0 +1,22 @@
+package com.penhchet.data.dao.interfaces;
+
+import java.util.List;
+
+public interface Dao<ENTITY, ID>{
+	
+	public ENTITY findById(ID id);
+	
+	public List<ENTITY> findAll();
+	
+	public ENTITY save(ENTITY entity);
+	
+	public void delete(ENTITY entity);
+	
+	public void flush();
+	
+	public void clear();
+	
+	public void setSession(Session session);
+	
+
+}
