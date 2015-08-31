@@ -1,6 +1,0 @@
-package com.spring.config;
-
-
-public class RestServletContextConfiguration extends WebMvcConfigurerAdapter{
-
-}

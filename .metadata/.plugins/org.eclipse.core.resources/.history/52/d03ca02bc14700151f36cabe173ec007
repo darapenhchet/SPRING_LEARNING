@@ -1,8 +1,0 @@
-package com.spring.site.exception;
-
-import com.spring.config.annotation.RestEndpointAdvice;
-
-@RestEndpointAdvice
-public class RestExceptionHanlder {
-
-}

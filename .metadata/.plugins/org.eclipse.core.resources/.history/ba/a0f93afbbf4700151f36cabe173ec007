@@ -1,5 +1,0 @@
-package com.spring.config.annotation;
-
-public class RestEndpointAdvice {
-
-}

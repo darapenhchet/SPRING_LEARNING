@@ -1,8 +1,0 @@
-package com.spring.site.controller.web;
-
-import com.spring.config.annotation.WebController;
-
-@WebController
-public class AccountController {
-
-}
