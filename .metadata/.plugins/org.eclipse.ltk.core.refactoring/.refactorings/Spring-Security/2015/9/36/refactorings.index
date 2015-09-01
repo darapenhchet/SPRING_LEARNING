@@ -10,3 +10,4 @@
 1441081448315	Rename type 'ServletContextConfiguration'
 1441081466924	Rename resource 'views'
 1441083726337	Copy file
+1441093670293	Move 'springSecurity.xml' to 'WEB-INF'

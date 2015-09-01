@@ -1,19 +1,19 @@
 package com.spring.site.config;
 
-import java.nio.file.attribute.AclEntry.Builder;
-
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Configuration
 @EnableWebMvcSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 
+	//@Inject DataSource dataSource;
 	// The configure(AuthenticationManagerBuilder) method sets up the AuthenticationProvider
 	// that we should use for authenticating users.
 	@Override
@@ -28,7 +28,15 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 				.withUser("user")
 				.password("user")
 				.authorities("USER");
-		
+
+		/*authenticationManagerBuilder
+				.jdbcAuthentication()
+				//.dataSource(this.dataSource)
+				.usersByUsernameQuery("SELECT Username, Password, Enabled "
+						+ " FROM User WHERE Username = ?")
+				.authoritiesByUsernameQuery("SELECT Username, Permission "
+						+ " FROM UserPermission WHERE Username = ?")
+				.passwordEncoder(new BCryptPasswordEncoder());*/
 		
 	}
 	
@@ -42,17 +50,51 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity httpSecurity) throws Exception {
 		httpSecurity
-				.authorizeRequests()
-					.antMatchers("/signup", "/about", "/policies").permitAll()
-					.antMatchers("/secure/**").hasAuthority("USER")
-					.antMatchers("/admin/**").hasAuthority("ADMIN")
-					.anyRequest().authenticated()
-				.and().formLogin()
-					.loginPage("/login").failureUrl("/login?error")
-					.defaultSuccessUrl("/secure/")
-					.usernameParameter("username")
-					.passwordParameter("password")
-					.permitAll()
-				.and().csrf().disable();
+			.authorizeRequests()
+				.anyRequest().authenticated()
+				.and()
+			.formLogin()
+				.loginPage("/login")
+				.defaultSuccessUrl("/secure")
+				.permitAll()
+				.and()
+			.logout()
+				.permitAll()
+				.and()
+			.csrf().disable();
+			
+//		httpSecurity
+//				.authorizeRequests()
+//					.antMatchers("/signup", "/about", "/policies").permitAll()
+//					.antMatchers("/secure/**").hasAuthority("USER")
+//					.antMatchers("/admin/**").hasAuthority("ADMIN")
+//					.anyRequest().authenticated()
+//				.and().formLogin()
+//					.loginPage("/login").failureUrl("/login?error")
+//					.defaultSuccessUrl("/secure/")
+//					.usernameParameter("username")
+//					.passwordParameter("password")
+//					.permitAll()
+//				.and()
+//					.logout()
+//					.logoutUrl("/logout")
+//					.logoutSuccessUrl("/login/loggedOut")
+//					.invalidateHttpSession(true).deleteCookies("JSESSIONID")
+//					.permitAll()
+//				.and().csrf().disable()					
+//					.sessionManagement()
+//					.sessionFixation()
+//					.changeSessionId()
+//					.maximumSessions(1)
+//					.maxSessionsPreventsLogin(true)
+//					.expiredUrl("/login?maxSessions")
+//				.and().and().csrf().disable()
+//				.rememberMe().key("SpringSecurityAppName");
+//				.and().headers().cacheControl()
+//					  .contentTypeOptions()
+//					  .frameOptions()
+//					  .httpStrictTransportSecurity()
+//					  .xssProtection();
+					
 	}
 }

@@ -50,4 +50,9 @@
 		 <dispatcher>REQUEST</dispatcher>
 	 </filter-mapping> -->
 	 <!-- SPRING SECURITY XML CONFIGURATION -->
+<!-- <listener>
+		 <listener-class>
+		 	org.springframework.security.web.session.HttpSessionEventPublisher
+		 </listener-class>
+	 </listener> -->
 </web-app>

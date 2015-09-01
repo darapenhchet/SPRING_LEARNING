@@ -23,6 +23,7 @@
 			md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg"></md-icon>
 		</md-button>
 		<h1>Spring Security</h1>
+		<h2>${error}</h2>
 	</div>
 	</md-toolbar>
 	<div layout="row" flex>
@@ -32,21 +33,27 @@
 		</md-sidenav>
 		<div layout="column" flex id="content">
 			<md-content layout="column" flex class="md-padding">
+			<form action="login" method="POST">
 			<h1>Sign In</h1>
-			<md-input-container> <label>Username</label> <input
-				ng-model="user.username"> </md-input-container> <md-input-container>
-			<label>Password</label> <input ng-model="user.password"
-				type="password"> </md-input-container>
-			<section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-				<!-- <md-button class="md-raised">Button</md-button> -->
-				<md-button class="md-raised md-primary">Sign In</md-button>
-				<md-button class="md-raised md-primary">Cancel</md-button>
-				<!-- 
-				<md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
-				<md-button class="md-raised md-warn">Warn</md-button>
-				<div class="label">Raised</div> -->
-			</section>
-			</md-content>
+				<md-input-container> 
+					<label>Username</label> 
+					<input type="text" name="username"> 
+				</md-input-container> 
+				<md-input-container>
+					<label>Password</label> 
+					<input type="password" name="password"> 
+				</md-input-container>
+				<section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+					<!-- <md-button class="md-raised">Button</md-button> -->
+					<md-button class="md-raised md-primary" type="submit">Sign In</md-button>
+					<md-button class="md-raised md-primary">Cancel</md-button>
+					<!-- 
+					<md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
+					<md-button class="md-raised md-warn">Warn</md-button>
+					<div class="label">Raised</div> -->
+				</section>
+				</md-content>
+			</form>
 		</div>
 	</div>
 	<!-- Angular Material Dependencies -->
