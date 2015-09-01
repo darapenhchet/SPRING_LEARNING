@@ -7,6 +7,7 @@
 <aop-project name="Ch9_Fitler_ASYNC"/>
 <aop-project name="RESTful-SOAP-Webservice"/>
 <aop-project name="FromZero"/>
+<aop-project name="Spring-Security"/>
 <aop-project name="Ch14-Repository-Service-Controller"/>
 <aop-project name="Spring-Hibernate"/>
 <aop-project name="discussion-board"/>

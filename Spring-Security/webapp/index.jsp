@@ -7,6 +7,6 @@
 <title>WELCOME TO SPRING SECURITY</title>
 </head>
 <body>
-	<h1>WELCOME TO SPRING SECURITY</h1>
+	<h1 style="text-align: center;">WELCOME TO SPRING SECURITY</h1>
 </body>
 </html>
