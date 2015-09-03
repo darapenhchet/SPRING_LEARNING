@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 
-	@RequestMapping(value = "/home")
+	@RequestMapping(value = "/admin/home")
 	public String index() {
 		System.out.println("HOME CONTROLLER...");
 		return "home";
@@ -18,11 +18,14 @@ public class HomeController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView login(
 			@RequestParam(value = "error", required = false) String error,
-			@RequestParam(value = "logout", required = false) String logout) {
-
+			@RequestParam(value = "logout", required = false) String logout,
+			@RequestParam(value = "maxSessions", required = false) String maxSessions) {
 		System.out.println("STARTING LOGIN FORM");
 		ModelAndView model = new ModelAndView();
 		System.out.println(error);
+		if(maxSessions!=null){
+			model.addObject("maxSessions", "Maximum Session...");
+		}
 		if (error != null) {
 			model.addObject("error", "Invalid username and password!");
 		}
@@ -34,6 +37,29 @@ public class HomeController {
 
 		return model;
 	}
+	
+	/*@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public ModelAndView loginProc(
+			@RequestParam(value = "username") String username,
+			@RequestParam(value = "password") String password) {
+
+		System.out.println("STARTING LOGIN FORM");
+		ModelAndView model = new ModelAndView();
+		System.out.println(username);
+		System.out.println(password);
+		if (error != null) {
+			model.addObject("error", "Invalid username and password!");
+		}
+
+		if (logout != null) {
+			model.addObject("msg", "You've been logged out successfully.");
+		}
+		model.setViewName("home");
+
+		return model;
+	}*/
+	
+	
 
 	@RequestMapping(value = "/signup")
 	public String signup() {

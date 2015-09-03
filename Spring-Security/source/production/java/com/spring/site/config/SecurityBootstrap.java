@@ -10,13 +10,15 @@ import org.springframework.security.web.context.AbstractSecurityWebApplicationIn
 public class SecurityBootstrap extends
 		AbstractSecurityWebApplicationInitializer {
 
-	@Override
+	/*@Override
 	protected Set<SessionTrackingMode> getSessionTrackingModes() {
-		return EnumSet.of(SessionTrackingMode.SSL);
-	}
+		return EnumSet.of(SessionTrackingMode.COOKIE);
+	}*/
 
 	@Override
 	protected boolean enableHttpSessionEventPublisher() {
+		System.out.println("Executing security bootstrap.");
 		return true;
 	}
+	
 }

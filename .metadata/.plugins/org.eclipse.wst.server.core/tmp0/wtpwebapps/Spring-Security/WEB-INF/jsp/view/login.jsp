@@ -23,7 +23,6 @@
 			md-svg-icon="https://s3-us-west-2.amazonaws.com/s.cdpn.io/68133/menu.svg"></md-icon>
 		</md-button>
 		<h1>Spring Security</h1>
-		<h2>${error}</h2>
 	</div>
 	</md-toolbar>
 	<div layout="row" flex>
@@ -34,6 +33,9 @@
 		<div layout="column" flex id="content">
 			<md-content layout="column" flex class="md-padding">
 			<form action="login" method="POST">
+			<h2>${error}</h2>
+			<h2>${maxSessions}</h2>
+			
 			<h1>Sign In</h1>
 				<md-input-container> 
 					<label>Username</label> 

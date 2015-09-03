@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="com.penhchet.data.dao.UserHibernateDao"/>
-<fullyQualifiedTypeName name="com.penhchet.data.dao.interfaces.UserDao"/>
-<fullyQualifiedTypeName name="javax.persistence.Table"/>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
-<fullyQualifiedTypeName name="javax.persistence.Column"/>
-<fullyQualifiedTypeName name="com.penhchet.data.entities.Credential"/>
-<fullyQualifiedTypeName name="com.penhchet.data.entities.UserCredentialView"/>
-<fullyQualifiedTypeName name="com.penhchet.data.entities.Market"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
-<fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
-<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-<fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="com.penhchet.data.entities.Account"/>
 <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
@@ -41,12 +25,8 @@
 <fullyQualifiedTypeName name="org.hibernate.criterion.Order"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.web.WebApplicationInitializer"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Configurable"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.EnableWebMvc"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan.Filter"/>
@@ -60,4 +40,24 @@
 <fullyQualifiedTypeName name="javax.servlet.ServletRegistration.Dynamic"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.handler.DispatcherServletWebRequest"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.DispatcherServlet"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="javax.servlet.SessionTrackingMode"/>
+<fullyQualifiedTypeName name="java.util.EnumSet"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.servlet.configuration.EnableWebMvcSecurity"/>
+<fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
+<fullyQualifiedTypeName name="java.nio.file.attribute.AclEntry.Builder"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
+<fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.jdbc.pool.DataSource"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.ast.AND_AND_Expression"/>
+<fullyQualifiedTypeName name="com.spring.site.config.SecurityConfiguration"/>
 </qualifiedTypeNameHistroy>

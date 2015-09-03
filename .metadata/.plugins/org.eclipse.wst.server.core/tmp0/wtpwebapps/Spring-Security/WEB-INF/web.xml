@@ -39,7 +39,7 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping> -->
 	<!-- SPRING SECURITY XML CONFIGURATION -->
-<!-- 	<filter>
+ 	<!-- <filter>
 		 <filter-name>springSecurityFilterChain</filter-name>
 		 <filter-class> org.springframework.web.filter.DelegatingFilterProxy </filter-class>
 	</filter>
@@ -48,11 +48,18 @@
 		 <url-pattern>/*</url-pattern>
 		 <dispatcher>ERROR</dispatcher>
 		 <dispatcher>REQUEST</dispatcher>
-	 </filter-mapping> -->
+	 </filter-mapping>  -->
 	 <!-- SPRING SECURITY XML CONFIGURATION -->
 <!-- <listener>
 		 <listener-class>
 		 	org.springframework.security.web.session.HttpSessionEventPublisher
 		 </listener-class>
 	 </listener> -->
+	 <session-config>
+        <session-timeout>10</session-timeout>
+        <cookie-config>
+            <http-only>false</http-only>
+        </cookie-config>
+        <tracking-mode>COOKIE</tracking-mode>
+    </session-config>
 </web-app>
