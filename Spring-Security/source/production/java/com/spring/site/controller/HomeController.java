@@ -18,14 +18,10 @@ public class HomeController {
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView login(
 			@RequestParam(value = "error", required = false) String error,
-			@RequestParam(value = "logout", required = false) String logout,
-			@RequestParam(value = "maxSessions", required = false) String maxSessions) {
+			@RequestParam(value = "logout", required = false) String logout) {
 		System.out.println("STARTING LOGIN FORM");
 		ModelAndView model = new ModelAndView();
 		System.out.println(error);
-		if(maxSessions!=null){
-			model.addObject("maxSessions", "Maximum Session...");
-		}
 		if (error != null) {
 			model.addObject("error", "Invalid username and password!");
 		}

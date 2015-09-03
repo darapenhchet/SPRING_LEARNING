@@ -34,7 +34,6 @@
 			<md-content layout="column" flex class="md-padding">
 			<form action="login" method="POST">
 			<h2>${error}</h2>
-			<h2>${maxSessions}</h2>
 			
 			<h1>Sign In</h1>
 				<md-input-container> 
