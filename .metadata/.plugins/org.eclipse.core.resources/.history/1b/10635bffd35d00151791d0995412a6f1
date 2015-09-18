@@ -1,0 +1,5 @@
+package com.kosign.wecafe.configuration;
+
+public class Bootstrap {
+
+}

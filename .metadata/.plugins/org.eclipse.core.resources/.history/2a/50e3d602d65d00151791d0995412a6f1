@@ -1,0 +1,11 @@
+package com.kosign.wecafe.configuration;
+
+@Configuration
+@ComponentScan(
+ basePackages = "com.wrox.site",
+ excludeFilters = @ComponentScan.Filter(Controller.class)
+)
+pu
+public class RootContextConfiguration {
+
+}

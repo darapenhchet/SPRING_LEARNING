@@ -1,9 +1,0 @@
-package com.penhchet.data.entities;
-
-import javax.persistence.Entity;
-
-@Entity
-@Table(name="V_USER_CREDENTIAL")
-public class UserCredentialView {
-
-}

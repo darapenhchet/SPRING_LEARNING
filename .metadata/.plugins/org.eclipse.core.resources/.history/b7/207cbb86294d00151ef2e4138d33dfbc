@@ -1,9 +1,0 @@
-package com.penhchet.data.dao;
-
-import java.io.Serializable;
-
-import com.penhchet.data.dao.interfaces.Dao;
-
-public abstract class AbstractDao<T, ID extends Serializable> implements Dao<ENTITY, ID> {
-
-}

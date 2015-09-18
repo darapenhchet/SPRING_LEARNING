@@ -1,0 +1,12 @@
+package com.kosign.wecafe.configuration;
+
+@Configuration
+@EnableWebMvc
+@ComponentScan(
+ basePackages = "com.wrox.site",
+ useDefaultFilters = false,
+ includeFilters = @ComponentScan.Filter(Controller.class)
+)
+public class ServletContextConfiguration {
+
+}

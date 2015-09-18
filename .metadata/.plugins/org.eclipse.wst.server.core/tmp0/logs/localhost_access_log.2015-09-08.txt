@@ -1,0 +1,14 @@
+127.0.0.1 - - [08/Sep/2015:14:32:41 +0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:14:32:43 +0700] "GET /Spring-Security/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:14:32:43 +0700] "GET /Spring-Security/login HTTP/1.1" 200 2803
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:14:32:44 +0700] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:14:32:47 +0700] "POST /Spring-Security/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:14:32:47 +0700] "GET /Spring-Security/ HTTP/1.1" 200 338
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:14:32:53 +0700] "GET /Spring-Security/admin HTTP/1.1" 200 17217
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:17:16:53 +0700] "GET /Spring-Security/admin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:17:16:54 +0700] "GET /Spring-Security/signup HTTP/1.1" 200 2223
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:17:17:01 +0700] "GET /Spring-Security/admin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:17:17:01 +0700] "GET /Spring-Security/login HTTP/1.1" 200 2803
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:17:17:03 +0700] "POST /Spring-Security/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:17:17:07 +0700] "GET /Spring-Security/admin HTTP/1.1" 200 17218
+0:0:0:0:0:0:0:1 - - [08/Sep/2015:17:19:23 +0700] "GET /Spring-Security/admin HTTP/1.1" 200 17213

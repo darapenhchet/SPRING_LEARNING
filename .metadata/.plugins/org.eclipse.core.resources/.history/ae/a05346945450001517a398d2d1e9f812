@@ -1,7 +1,0 @@
-package com.spring.site.config;
-
-import org.springframework.web.WebApplicationInitializer;
-
-public class Bootstrap implements WebApplicationInitializer{
-
-}

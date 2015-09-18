@@ -1,0 +1,5 @@
+package com.kosign.wecafe.controller;
+
+public class AdminController {
+
+}

@@ -50,6 +50,8 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringConfiguration"/>
+			<item value="Servlet-Security"/>
 			<item value="sddsfcds"/>
 			<item value="Spring-Security"/>
 			<item value="HelloWeb"/>
@@ -59,6 +61,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringConfiguration"/>
+			<item value="Servlet-Security"/>
 			<item value="sddsfcds"/>
 			<item value="Spring-Security"/>
 			<item value="HelloWeb"/>
@@ -71,6 +75,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\SPRING_LEARNING\SpringConfiguration"/>
 			<item value="D:\SPRING_LEARNING\RESTful-SOAP-Webservice"/>
 		</list>
 		<list key="projectNameTemplate">

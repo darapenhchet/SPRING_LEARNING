@@ -1,9 +1,0 @@
-package com.penhchet.data.dao.interfaces;
-
-public interface Dao<E, ID>{
-	
-	public T findById(ID id);
-	
-	
-
-}

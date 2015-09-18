@@ -1,0 +1,10 @@
+package com.kosign.wecafe.configuration;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.WebApplicationInitializer;
+
+@Controller
+public class WeCafeBootstrap implements WebApplicationInitializer{
+
+	
+}

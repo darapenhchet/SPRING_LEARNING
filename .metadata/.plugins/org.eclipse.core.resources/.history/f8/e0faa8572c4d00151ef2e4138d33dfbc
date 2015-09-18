@@ -1,5 +1,0 @@
-package com.penhchet.data.dao.interfaces;
-
-public class UserDao implements Dao<T, ID> {
-
-}

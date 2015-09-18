@@ -45,6 +45,7 @@ public class AccountRestEndpoint {
 		headers.add("Allow", "OPTIONS,HEAD,GET,PUT,DELETE");
 		return new ResponseEntity<>(null, headers, HttpStatus.NO_CONTENT);
 	}
+	
 	@RequestMapping(value = "account", method = RequestMethod.GET)
 	@ResponseBody
 	@ResponseStatus(HttpStatus.OK)
